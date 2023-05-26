@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site de restauration de l'entreprise Freshly">
+    <meta name="keywords" content="freshly, restauration, hamburgers, chocolat, cafétariat">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshly Restaurant</title>
+    <!-- Ajout du fichier CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Ajout du favicon -->
+    <link rel="icon" href="../../instructions/ressources/images/favicon.png" type="image/x-icon">
+    <!-- Intégration du jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Slick Slide -->
+    <script src="../../instructions/slick-master/slick/slick.min.js"></script>
+    <!-- Mixitup jQuery -->
+    <script src="../../instructions/mixitup-3/dist/mixitup.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/1c6c77a9e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Entête de la page -->
+    <header class="header">
+        <div class="wrapper flex">
+            <div class="logo">
+                <a href="./home.html"><img src="../../instructions/ressources/images/logo.png" alt="">
+                <h2>Freshly Restaurant</h2>
+            </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./menu.html">Menus</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Contenu principal de la page -->
+    <main class="wrapper">
+        <!-- <div class="slick">
+            <img src="../../instructions/ressources/images/slider-01.jpg" alt="">
+            <img src="../../instructions/ressources/images/slider-02.jpg" alt="">
+            <img src="../../instructions/ressources/images/slider-03.jpg" alt="">
+        </div> -->
+
+        <section class="welcome">
+            <h2>Details of our menus</h2>
+            <p>Choose your main course according to your menu !</p>
+
+            <div class="button">
+                <button data-filter="all">All</button>
+                <button data-filter=".meat">Meat</button>
+                <button data-filter=".vegan">Vegan</button>
+                <button data-filter=".fish">Fish</button>
+            </div>
+            
+            <div class="mixitup">
+                <div class="mix fish opacity">
+                    <div class="survol">
+                        <div class="bordure">
+                            <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                            <p>Grilled mussels</p>
+                        </div>
+                    </div>
+                    <img src="../../instructions/ressources/menus/fish-01.jpg" alt="fish01" >
+                </div>
+                <div class="mix vegan opacity">
+                    <div class="survol">
+                        <div class="bordure">
+                            <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                            <p>Mixed vegetables</p>
+                        </div>
+                    </div>
+                    <img src="../../instructions/ressources/menus/vegan-03.jpg" alt="vegan03" >
+                </div>
+                
+                <div class="mix meat opacity">
+                    <div class="survol">
+                        <div class="bordure">
+                            <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                            <p>Freshly kebabs</p>
+                        </div>
+                    </div>
+                    <img src="../../instructions/ressources/menus/meat-03.jpg" alt="meat03" >
+                </div>
+                <div class="mix fish opacity">
+                    <div class="survol">
+                        <div class="bordure">
+                            <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                            <p>Cajun shrimp</p>
+                        </div>
+                    </div>
+                    <img src="../../instructions/ressources/menus/fish-02.jpg" alt="fish02" >
+                </div>
+                <div class="mix meat opacity">
+                    <div class="survol">
+                        <div class="bordure">
+                            <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                            <p>Freshly burger</p>
+                        </div>
+                    </div>
+                    <img src="../../instructions/ressources/menus/meat-01.jpg" alt="meat01" >
+                </div>
+                <div class="mix vegan opacity">
+                    <div class="survol">
+                        <div class="bordure">
+                            <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                            <p>Grilled eggplants</p>
+                        </div>
+                    </div>
+                    <img src="../../instructions/ressources/menus/vegan-02.jpg" alt="vegan02" >
+                </div>
+                <div class="mix meat opacity">
+                    <div class="survol">
+                        <div class="bordure">
+                            <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                            <p>Beef stew with pasta</p>
+                        </div>
+                    </div>
+                    <img src="../../instructions/ressources/menus/meat-02.jpg" alt="meat02" >
+                </div>
+                <div class="mix fish opacity">
+                    <div class="survol">
+                        <div class="bordure">
+                            <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                            <p>Grilled salmon</p>
+                        </div>
+                    </div>
+                    <img src="../../instructions/ressources/menus/fish-03.jpg" alt="fish03" >
+                </div>
+                <div class="mix vegan opacity">
+                    <div class="survol">
+                        <div class="bordure">
+                            <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                            <p>Vegetable Jambalaya</p>
+                        </div>
+                    </div>
+                    <img src="../../instructions/ressources/menus/vegan-01.jpg" alt="vegan01" >
+                </div>
+            </div>
+            <article class="desert">
+                <h3>Deserts</h3>
+                <p>Here are the deserts you can choose to finish your meal (included in your menu).</p>
+                <div class="mixitup">
+                    <div class="mix fish opacity">
+                        <div class="survol">
+                            <div class="bordure">
+                                <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                                <p>Tiramisu</p>
+                            </div>
+                        </div>
+                        <img src="../../instructions/ressources/menus/desert-01.jpg" alt="desert-01" >
+                    </div>
+                    <div class="mix fish opacity">
+                        <div class="survol">
+                            <div class="bordure">
+                                <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                                <p>Freshly Pancakes</p>
+                            </div>
+                        </div>
+                        <img src="../../instructions/ressources/menus/desert-02.jpg" alt="desert-02" >
+                    </div>
+                    <div class="mix fish opacity">
+                        <div class="survol">
+                            <div class="bordure">
+                                <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                                <p>Redberries cup</p>
+                            </div>
+                        </div>
+                        <img src="../../instructions/ressources/menus/desert-03.jpg" alt="desert-03" >
+                    </div>
+                        
+                </div>
+            </article>
+            <article class="cocktail">
+                <h3>Cocktail</h3>
+                <p>Soft drinkgs are included, but if you want you can order one of our excellent cocktails (not included in the menu).</p>
+                <div class="mixitup">
+                    <div class="mix fish opacity">
+                        <div class="survol">
+                            <div class="bordure">
+                                <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                                <p>Winter Wisky</p>
+                            </div>
+                        </div>
+                        <img src="../../instructions/ressources/menus/drink-01.jpg" alt="drink-01" >
+                    </div>
+                    <div class="mix fish opacity">
+                        <div class="survol">
+                            <div class="bordure">
+                                <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                                <p>Paloma cocktail</p>
+                            </div>
+                        </div>
+                        <img src="../../instructions/ressources/menus/drink-02.jpg" alt="drink-02" >
+                    </div>
+                    <div class="mix fish opacity">
+                        <div class="survol">
+                            <div class="bordure">
+                                <img src="../../instructions/ressources/images/fork-knife.svg" alt="" class="svg">
+                                <p>Bellini Cocktail</p>
+                            </div>
+                        </div>
+                        <img src="../../instructions/ressources/menus/drink-03.jpg" alt="drink-03" >
+                    </div>
+                        
+                </div>
+            </article>
+        </section>
+    </main>
+    <!-- Pied de la page -->
+    <footer class="footer">
+        <div class="bg-footer">
+            <div class="infos">
+                <section>
+                    <h3>Opening hours</h3>
+                    <ul>
+                        <li>Monday: Closed</li>
+                        <li>Tue-Wed : 9am - 10pm</li>
+                        <li>Thu-Fri : 9am - 10pm</li>
+                        <li>Sat-Sun : 5pm - 10pm</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Contact</h3>
+                    <address>
+                        <p>
+                            13 Chrisopher Street<br>
+                            New York,
+                        </p>
+                        <p>NY 10014-3543</p>
+                        <a href="tel:+0120008009999">+01 2000 800 9999</a>
+                    </address>
+                </section>
+                <section class="network">
+                    <h3>Social networks</h3>
+                    <a href=""><span class="fa fa-facebook"></span></a>
+                    <a href=""><span class="fab fa-instagram"></span></a>
+                    <a href=""><span class="fab fa-pinterest-p"></span></a>
+                </section>
+            </div>
+        </div>
+        <div class="end-footer">
+            <a href="#"><img src="../../instructions/ressources/images/logo-3wa.png" alt=""></a>
+            <p>Cet exercice de <a href="#">3WA Academy</a> est mis à disposition <a href="#">pour l'usage personnel des
+                    étudiants. Pas de Rediffusion - Attribution - Pas d'utilisation Commerciale - Pas de Modification -
+                    International</a></p>
+            <p>Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a
+                    href="mailto:contact@3wa.fr">contact@3wa.fr</a>. Les maquettes ont été réalisées par <a
+                    href="#">Justine Muller</a></p>
+        </div>
+    </footer>
+    <script>
+        let mixer = mixitup(".mixitup");
+    </script>
+</body>
+
+</html>
