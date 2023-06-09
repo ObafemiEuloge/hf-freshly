@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = 18;
+        let devine = Number(window.prompt("Devinez le nombre magique svp ...."));
+        
+        while (number > devine || number < devine) {
+
+
+            if(number > devine){
+                devine = Number(window.prompt("Vous êtes en dessous de la valeur... Entrez une valeur un peu plus grande .... "));
+            }
+
+            if (number < devine){
+                devine = Number(window.prompt("Vous êtes au dessus de la valeur... Entrez une valeur moins grande .... "));
+            }
+            
+        }
+        
+        window.alert("Félicitation, vous avez trouvé le bon nombre 🙌😉 ");
+
+
+
+
+    </script>
+</body>
+</html>
