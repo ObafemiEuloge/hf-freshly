@@ -1,0 +1,20 @@
+body{
+	color: #555;
+	font-family: Sans-serif;
+}
+.container{
+	max-width: 980px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+.outline{
+	background-color: rgba(0,0,0,0.1);
+	border: 2px solid rgba(0,0,0,0.2);
+	margin: 10px;
+}
+
+.copyright{
+	text-align: center;
+}

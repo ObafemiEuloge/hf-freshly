@@ -1,0 +1,112 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image: url(./Wallpapers/bgc.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: Poppins;
+    backdrop-filter: blur(7px);
+}
+
+.header{
+    background-color: rgba(255, 255, 255, 0.365);
+    border: solid 2px rgba(128, 0, 0, 0.695);
+    width: 100%;
+    text-align: center;
+    margin: 2rem;
+}
+
+
+table,
+td,
+tr{
+    background-color: rgba(243, 168, 168, 0.082);
+    border-collapse: collapse;
+    border: solid 1px rgb(255, 255, 255);
+    backdrop-filter: blur(8px);
+}
+
+tr:nth-child(odd) td:nth-child(odd){
+    background-color: rgb(240, 240, 240);
+}
+tr:nth-child(even) td:nth-child(even){
+    background-color: rgb(240, 240, 240);
+}
+td{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+tr:nth-child(odd) td:nth-child(odd):hover,
+tr:nth-child(even) td:nth-child(even):hover{
+    background-color: rgb(105, 105, 105);
+}
+
+.maroon span{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.blue span{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(0, 140, 200);
+    border-radius: 50%;
+}
+
+.joueur{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.joueur1,
+.joueur2{
+    text-align: center;
+    background-color: #fff;
+    margin-block: 1rem;
+}
+
+.joueur1 h2{
+    background-color: maroon;
+    width: 100%;
+    color: #fff;
+    align-self: flex-start;
+}
+
+.joueur2 h2{
+    background-color: rgb(0, 140, 200);
+    width: 100%;
+    color: #fff;
+}
+
+.joueur1 p,
+.joueur2 p{
+    margin: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.second{
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    align-items: center;
+}
+

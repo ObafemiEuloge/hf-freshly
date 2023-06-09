@@ -1,0 +1,27 @@
+/* Mon code SASS */
+
+// Les variables SASS
+$clr-primaire: #fa3532;
+$clr-secondaire: blue;
+$clr-tertiaire: white;
+$clr-titre: cursive, sans-serif;
+
+
+
+body{
+    font-family: $clr-titre;
+    margin-inline: 10%;
+}
+
+
+h2{
+    color: $clr-primaire;
+}
+
+
+h1{
+    color: $clr-secondaire;
+}
+@import "../partials/header";
+
+@import "../partials/footer";

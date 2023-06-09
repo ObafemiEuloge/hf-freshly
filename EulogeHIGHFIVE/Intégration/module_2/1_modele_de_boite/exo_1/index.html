@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Modèle de boîte</title>
+		<!--Lien vers le fichier common-v1.css-->
+		<link rel="stylesheet" href="./css/common-v1.css">
+		<!--Lien vers le fichier theme.css-->
+		<link rel="stylesheet" href="./css/theme.css">
+		<!-- FavIcon -->
+		<link rel="icon" href="./img/logo-3wa.png" type="image/x-icon">
+	</head>
+	<body>
+		<!--Entête de la page-->
+			<header class="header">
+				<h1>Le modèle de boîte</h1>
+				<p>Découverte du modèle de boîte avec margin, padding, border et box-sizing.</p>
+			</header>
+			<!--Corps principal de la page-->
+			<main>
+				<p>Une boîte définie en bloc suivra les règles suivantes :
+					<ul>
+						<li>La boîte s'étend et rempli <code>100% de la largeur</code> disponible de son élément parent.</li>
+						<li>On peut lui attribuer une <code>largeur</code> (width, min-width, max-width) et une <code>hauteur</code> (height, min-height, max-height).</li>
+						<li>La propriété <code>margin</code> correspond à la marge externe.</li>
+						<li>La propriété <code>padding</code> correspond à la marge interne.</li>
+						<li>La propriété <code>border</code> ajoute une bordure.</li>
+						<li>Par défaut, quand la propriété <code>box-sizing</code> n'est pas définie avec la valeur <code>border-box</code>, le padding et le border s'ajoutent à la largeur de la boîte.</li>
+					</ul>
+				</p>
+				<div class="box box1"><p>Voici une 1<sup>ère</sup> boîte.</p></div>
+				<div class="box box2"><p>Voici une 2<sup>ème</sup> boîte avec utilisation de margin.</p></div>
+				<div class="box box3"><p>Voici une 3<sup>ème</sup> boîte avec utilisation de padding.</p></div>
+				<div class="box box4"><p>Voici une 4<sup>ème</sup> boîte avec utilisation de padding + border.</p></div>
+				<div class="box box5"><p>Voici une 5<sup>ème</sup> boîte avec utilisation de margin + padding + border.</p></div>
+				<div class="box box6"><p>Voici une 6<sup>ème</sup> boîte avec utilisation de margin + padding + border + box-sizing: border-box.</p></div>
+
+			</main>
+			<!--Pied de page de la page-->
+			<footer class="footer">
+				<a rel="license" href="https://www.w3schools.com/" alt="Propriété de la 3W Academy">
+					<img src="./img/logo-3wa.png">
+				</a>
+				<p>Ce matériel pédagogique est la propriété de la <a href="https://www.w3schools.com/" target="_blank">3W Academy</a>. Cet exercice a été réalisé par <a href="#">Christiane</a>.</p>
+			</footer>
+	</body>
+</html>

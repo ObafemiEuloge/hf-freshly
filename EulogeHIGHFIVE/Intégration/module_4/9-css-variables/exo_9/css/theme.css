@@ -1,0 +1,28 @@
+:root{
+    --clr-primary: #dd5735 ;
+    --clr-secondary: #333;
+    --clr-three: #fff;
+    --font: Arial;
+    --size: 20px;
+}
+
+
+article a{
+    display: inline-block;
+    background-color: var(--clr-primary);
+    color: white;
+    padding: 1rem;
+    border: solid 1px var(--clr-primary);
+    transition: all 0.5s;
+    transform: scale(1);
+}
+
+article a:hover{
+    transform: translate(15px);
+    background-color: var(--clr-three);
+    color: var(--clr-primary);
+}
+
+article{
+    padding: 2rem;
+}

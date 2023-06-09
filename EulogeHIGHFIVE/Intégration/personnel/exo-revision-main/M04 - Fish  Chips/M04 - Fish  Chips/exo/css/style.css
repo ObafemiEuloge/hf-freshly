@@ -1,0 +1,178 @@
+
+
+/* Généralités */
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #87c8c5 ;
+    font-style: normal;
+    line-height: 1.6rem;
+    font-size: 1em;
+    color: #333;
+}
+
+
+
+nav,
+h2,
+h3,
+h4{
+    font-family: Slabo27px;
+}
+
+.welcome h2{
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+.today h2{
+    font-size: 3.5em;
+    font-weight: 400;
+}
+
+.today article h3{
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+.today span{
+    color: #33b1b2;
+}
+
+.news h3{
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.news ul li,
+.news i{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.676);
+}
+
+.news i{
+    margin-right: 10px;
+}
+
+.news span{
+    font-weight: 700;
+}
+
+.news ul{
+    list-style: none;
+}
+
+.container{
+    font-family: Open-sans;
+    max-width: 1100px;
+    min-width: 800px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.welcome{
+    display: inline-block;
+    width: 70%;   
+}
+
+.header{
+    background-color: #33b1b2;
+    border: solid 3px #1d8888;
+    margin-top: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.gene{
+    display: flex;
+    gap: 2rem;
+    margin-block: 2rem;
+}
+
+.today{
+    display: inline-block;
+    width: 70%;
+    /* margin-inline: auto; */
+    background-color: rgba(255, 255, 255, 0.314);
+    padding: 2rem;
+    margin: 0;
+    text-align: justify;
+    text-align: center;
+}
+
+
+.today article{
+    /* display: inline-block; */
+    width: 35%;
+    margin-inline: 2rem;
+    text-align: left;
+}
+
+.fish{
+    display: flex;
+    justify-content: center;
+}
+
+.today article img{
+    border-radius: 50%;
+    float: left;
+}
+
+.news{
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    background-color: #33b1b2;
+    border: solid 3px #1d8888;
+    padding: 2rem;
+    color: white;
+}
+
+.news ul{
+    padding-left: 0;
+}
+
+.more{
+    text-align: right;
+}
+
+.read{
+    font-family: Slabo27px;
+    background-color: #33b1b2;
+    padding: 0.5rem 1em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.today i{
+    background-color: #fff;
+    color: #33b1b2;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.news img{
+    float: right;
+    margin-top: -6rem;
+    margin-right: -5rem;
+}
+
+
+.footer img{
+    width: 70px;
+}
+

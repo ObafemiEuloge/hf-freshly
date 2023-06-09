@@ -1,0 +1,28 @@
+/* Déclaration des fonts */
+
+@font-face {
+    font-family: PT Sans Narrow;
+    src: url(../Instruction/font/PT_Sans-Narrow-Web-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: PT Sans Narrow;
+    src: url(../Instruction/font/PT_Sans-Narrow-Web-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Open-sans;
+    src: url(../Instruction/font/opensans/OpenSans[wdth\,wght].ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Open-sans;
+    src: url(../Instruction/font/opensans/OpenSans-Italic[wdth\,wght].ttf);
+    font-weight: 400;
+    font-style: italic;
+}

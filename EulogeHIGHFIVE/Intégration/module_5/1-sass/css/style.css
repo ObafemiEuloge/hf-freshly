@@ -1,0 +1,54 @@
+/* Mon code SASS */
+body {
+  font-family: cursive, sans-serif;
+  margin-inline: 10%;
+}
+
+h2 {
+  color: #fa3532;
+}
+
+h1 {
+  color: blue;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to left, blue, #fa3532);
+  padding: 0.5rem 1rem;
+}
+header .logo {
+  color: white;
+  font-weight: 900;
+  font-size: 2rem;
+}
+header nav ul {
+  display: flex;
+  gap: 2rem;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 700;
+  padding: 1rem;
+  transition: all 0.8s;
+  color: white;
+}
+header nav ul li a:hover {
+  background-color: white;
+  color: blue;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to left, blue, #fa3532);
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importation du Jquery -->
+    <script src="./jquery-3.7.0.min.js"></script>
+    <title>JQUERY</title>
+</head>
+<body>
+    <div class="button">
+        <button id="hide">Cacher</button>
+        <button id="show">Afficher</button>
+        <button id="toggle">Switch</button>
+        <button id="css">Colorier</button>
+    </div>
+    <p id="paragraph">Appuyer sur "Cacher" ou sur "Afficher"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus, labore veniam debitis ipsa impedit quaerat temporibus sint, voluptatem blanditiis odit corrupti fugit voluptates natus eos dolores eligendi quo? Ut aliquid iste accusamus nemo dicta quod, dolorem eius nobis totam minus necessitatibus ipsa obcaecati ea illum. Tenetur accusamus culpa minima!</p>
+
+    <!-- Code Personnalisé -->
+    <script>
+        $(document).ready(function() {
+            //Mon code jquery ici
+            $("#hide").click(function() {
+                $("#paragraph").hide(1000);
+            });
+
+            $("#show").click(function() {
+                $("#paragraph").show(1000);
+            });
+
+            $("#toggle").click(function(){
+                $("p").toggle(1000);
+            });
+
+            $("#css").click(function() {
+                $("p").css({"color":"blue", "font-family": "sans-serif"});
+            });
+        });
+
+    </script>
+    <!-- Code Personnalisé -->
+</body>
+</html>

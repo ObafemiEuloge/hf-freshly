@@ -1,0 +1,306 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    line-height: 1.4rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+    border-top: solid 5px #7e4a7c;
+}
+
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+}
+.header{
+    text-align: center;
+    
+}
+
+
+
+/* Menu de navigation */
+
+.header nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #7e4a7c;
+    font-family: Economica;
+}
+
+.header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 10rem;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 0.5rem;
+}
+
+
+.header nav ul li a:hover{
+    background-color: #fff;
+    color: #7e4a7c;
+}
+
+.section1 ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.section1 ul li{
+    line-height: 3em;
+}
+
+h1,
+h3{
+    font-family: Economica;
+    color: #7e4a7c;
+}
+
+h2{
+    font-family: Economica;
+    color: #b878b5;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-block: 5rem;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.more{
+    display: inline-block;
+    background-color: #7e4a7c;
+    /* margin-top: 0.5rem; */
+    padding: 0.6rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Economica;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.teach p:nth-of-type(1){
+color: #7e4a7c;
+font-style: italic;
+}
+
+.more:hover{
+    background-color: #6b396a;
+}
+
+.section1 div article{
+    display: inline-block;
+}
+
+.section1 div article ul li::before{
+    content: url(../../instructions/images/puce-fleche.png);
+    margin-right: 1rem;
+}
+
+.flexx{
+display: flex;
+}
+
+/* .flexx div{
+    width: 50%;
+} */
+.float{
+    display: flex;
+    width: 70%;
+}
+
+.float img{
+    margin-right: 1rem;
+}
+
+.flexx article{
+    margin-left: 1rem;
+}
+
+.section1 div p:nth-child(1){
+    font-style: italic;
+    color: #7e4a7c;
+}
+
+.teacher{
+    display: flex;
+    flex-basis: 43%;
+    justify-content: center;
+}
+
+.teacher img{
+    margin-inline: 1rem;
+    margin-bottom: 2rem;
+}
+.teach h3{
+    margin: 0;
+}
+.teach{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+table{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+
+
+table,
+tr,
+td,
+th{
+    border: solid 1px #7e4a7c;
+    border-collapse: collapse; 
+    text-align: center;
+}
+
+th{
+    border-color: #b878b5;
+}
+
+th,
+td{
+    padding: 0.3rem;
+}
+
+th{
+    background-color: #7e4a7c;
+    color: #fff;
+    
+}
+
+table tr:nth-child(2) td:nth-child(5){
+    background-color: #ffeefe;
+}
+table tr:nth-child(3) td:nth-child(3){
+    background-color: #ffeefe;
+}
+table tr:nth-child(5) td:nth-child(2){
+    background-color: #ffeefe;
+}
+table tr:nth-child(6) td:nth-child(4){
+    background-color: #ffeefe;
+}
+
+form{
+    text-align: center;
+    color: #7e4a7c;
+    margin-block: 3rem;
+}
+
+form .gene{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #ffeefe;
+    padding: 1rem;
+    margin-block: 2rem;
+}
+
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    background-color: #fff;
+    border:solid 1px  #b878b5;
+    width: 60%;
+
+}
+
+select{
+    display: inline-block;
+    background-color: #fff;
+    border:solid 1px  #b878b5;
+    width: 50%;
+}
+
+input[type="submit"]{
+    background-color: #7e4a7c;
+    border: solid 1px #7e4a7c;
+    text-align: center;
+    border: solid 1px #7e4a7c;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.5rem;
+    font-family: Economica;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+input[type="submit"]:hover{
+    color: #7e4a7c;
+    background-color: #fff;
+}
+
+fieldset{
+    border: solid 1px #7e4a7c;
+}
+
+
+
+
+
+
+footer .icone{
+    background-color: #7e4a7c;
+    padding: 2rem;
+    text-align: center;
+} 
+
+footer .icone a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    margin-inline: 1rem;
+}
+
+footer .wa{
+    background-color: #363636;
+    text-align: center;
+    color: #fff;
+}
+
+footer .wa a{
+    color: #fff;
+}
+
+footer .wa {
+    padding: 1rem;
+}
+
+footer .wa img{
+    width: 70px;
+}
+
+
+

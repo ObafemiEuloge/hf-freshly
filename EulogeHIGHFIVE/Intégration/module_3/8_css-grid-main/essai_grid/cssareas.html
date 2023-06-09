@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 50px 100px 100px 60px;
+            grid-template-areas: 
+            "h h h"
+            "s c1 c1"
+            "s c2 c3"
+            "f f f";
+        }
+
+        .grid div{
+            border: solid 1px #111;
+        }
+
+        .header{grid-area: h;}
+        .s{grid-area: s;}
+        .c1{grid-area: c1;}
+        .c2{grid-area: c2;}
+        .c3{grid-area: c3;}
+        .footer{grid-area: f;}
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="header">Header</div>
+        <div class="s">Slidebar</div>
+        <div class="c1">Content-1</div>
+        <div class="c2">Content-2</div>
+        <div class="c3">Content-3</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>

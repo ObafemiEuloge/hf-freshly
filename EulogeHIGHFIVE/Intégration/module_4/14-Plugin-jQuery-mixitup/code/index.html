@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slick</title>
+<!-- Lien vers les fichiers CSS -->
+    <link rel="stylesheet" href="../code/css/style.css">
+<!-- Lien vers les fichiers jQuery -->
+    <!-- Intégration du jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Intégration du slick slider -->
+    <script src="../mixitup-3/mixitup-3/dist/mixitup.js"></script>
+    <!-- Code jQuery -->
+    <script src="../code/jquery/main.js"></script>
+</head>
+<body>
+    <h1>Mixitup</h1>
+    <p>Le <strong>mixitup</strong> est une bibliothèque JavaScript populaire utilisée pour créer des filtrages et des animations de tri pour les d'une page web. Il offre une solution flexible pour organiser, trier, et filtrer des contenus tels que des images, des vidéos, des articles de blog, des produits, etc.</p>
+
+    <div class="button">
+        <button data-filter="all">Tous</button>
+        <button data-filter=".green">Green</button>
+        <button data-filter=".blue">Blue</button>
+        <button data-filter=".red">Red</button>
+    </div>
+
+    <div class="mixitup">
+        <div class="mix item blue">Blue</div>
+        <div class="mix item green">Green</div>
+        <div class="mix item blue">Blue</div>
+        <div class="mix item green">Green</div>
+        <div class="mix item red">Red</div>
+        <div class="mix item blue">Blue</div>
+        <div class="mix item red">Red</div>
+        <div class="mix item green">Green</div>
+        <div class="mix item red">Red</div>
+    </div>
+
+    <script>
+        let mixer = mixitup(".mixitup");
+    </script>
+</body>
+</html>

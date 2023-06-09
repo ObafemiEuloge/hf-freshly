@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Template du module 2">
+		<meta name="keywords" content="template, module, html,css,box">
+		<!--Lien vers le fichier theme.css-->
+		<link rel="stylesheet" href="./css/style.css">
+        <!-- Lien vers le fichier font-face -->
+        <link rel="stylesheet" href="./css/font-face.css">
+		<!-- favicon -->
+		<link rel="icon" href="../instructions/ressources/favicon.ico" type="image/x-icon">
+		<!--Lien vers le fichier common-v1.css-->
+		<link rel="stylesheet" href="./css/common-v2.css">
+		<title>Hello World</title>
+        <script src="https://kit.fontawesome.com/1c6c77a9e3.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<!--Entête de la page-->
+			<header class="header">
+				<a href="./index.html"><img src="../instructions/ressources/logo.png" alt="Logo"></a>
+				<nav>
+                    <ul>
+                        <li><a href="#voyage">Carnet de voyages</li></a>
+                        <li><a href="#apropos">à propos</li></a>
+                        <li><a href="#mecontacter">Me contacter</li></a>
+                    </ul>
+                </nav>
+			</header>
+		<!--Corps principal de la page-->
+			<main>
+				<h1 >Carnet de voyages</h1>
+                    <section class="section1 container" id="voyage">
+                        <article class="article1">
+                            <h2>Mes derniers voyages</h2>
+                            <h3>Vienne, Autriche</h3>
+                            <img src="../instructions/ressources/vienne.jpg" alt="Vienne">
+                            <p>Vienne est un mélange d’architecture fastueuse, de musique et de charme pittoresque.</p>
+                            <p>Semblable à nulle autre, <strong>Vienne</strong> préserve intact son aspect historique d’origine marqué par des édifices fastueux datant de l’époque baroque et des débuts du XXème siècle.</p>
+                            <p>La moitié de la ville est située sur le Danube et offre des parcs, la forêt viennoise et même des zones viticoles pour les loisirs.</p>
+                            <p class="p-readmore1"><a href="../../Hello_World_Bonus/hello_world_bonus/vienne.html" class="readmore">En savoir plus</a></p>
+                        </article><hr>
+
+                        <article class="article2">
+                            <h3>Marrakech, Maroc</h3>
+                            <img src="../instructions/ressources/marrakech.jpg" alt="Marrakech">
+                            <p>Marrakech, est une ville située dans le centre du Maroc au pied des montagnes de l'Atlas. <strong>Marrakech</strong> est surnommée <span>« la ville rouge »</span> ou <span>la « ville ocre »</span> en référence à la couleur rouge d'une grande partie de ses immeubles et ses maisons.</p>
+                            <p>Marrakech est une ville unique en son genre qui se distingue totalement du reste. Visiter Marrakech est une expérience qui stimulera tous vos sens : ses couleurs, ses saveurs et ses odeurs vous marqueront dès votre arrivée et vous accompagneront des semaines après votre retour.</p>
+                            <p class="p-readmore2"><a href="#" class="readmore">En savoir plus</a></p>
+                        </article><hr>
+                    </section>
+                    <div class="container pagination">
+                            <a href="#">Page précédente</a>
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">Page suivante</a>
+                    </div>
+                    <section class="container table">
+                        <h2>Les meilleures saisons pour voyager</h2>
+                        <table>
+                            <tr>
+                                <th>Ville</th>
+                                <th>Pays</th>
+                                <th>Périodes</th>
+                            </tr>
+                            <tr>
+                                <td>Bali</td>
+                                <td>Indonésie</td>
+                                <td>juin à septembre</td>
+                            </tr>
+                            <tr>
+                                <td>Marrakech</td>
+                                <td>Maroc</td>
+                                <td>mars à juin, septembre à novembre</td>
+                            </tr>
+                            <tr>
+                                <td>Miami</td>
+                                <td>USA</td>
+                                <td>janvier à avril, novembre, décembre</td>
+                            </tr>
+                            <tr>
+                                <td>Vienne</td>
+                                <td>Autriche</td>
+                                <td>juin à septembre</td>
+                            </tr>
+                            <tr>
+                                <td>Sydney</td>
+                                <td>Australie</td>
+                                <td>mars à mai, septembre et octobre</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section class="section2">
+                        <div class="container">
+                            <article class="article3" id="apropos">
+                                <h2>à propos</h2>
+                                <p>Je m'appelle Claire et j'aime <strong>les voyages</strong> et l'aventure.</p>
+                                <p>C'est suite à un long <strong>tour du monde</strong> que j'ai changé de vie et que j'ai décidé de créer ce blog pour vous aider à voyager.</p>
+                                <p>Ma passion pour le voyage est désormais devenu mon métier.</p>
+                                <p>Vous pourrez trouver ici de l'inspiration et de nombreux conseils pour <strong>réduire votre budget voyages</strong> et pouvoir partir plus souvent.</p>
+                            </article>
+                        </div>
+                    </section>
+                    <section class="section3 container" id="mecontacter">
+                        <h2>Me contacter</h2>
+                        <address>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg> <span>31 Rue d'Auteuil, Paris 16 <sup>ème</sup></span>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> <span>claire@helloworld.com</span>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM144 448c0 8.8 7.2 16 16 16h64c8.8 0 16-7.2 16-16s-7.2-16-16-16H160c-8.8 0-16 7.2-16 16zM304 64H80V384H304V64z"/></svg> <span>06 01 03 05 07</span>
+                            </a>
+                        </address>
+                        <article class="form">
+                            <h3>Formulaire de contact</h3>
+                            <form action="" method="post" class="background">
+                                      <div class="flex">
+                                        <div>
+                                            <input type="text" name="lastname" id="" placeholder="Votre nom" required><br>
+                                            <input type="email" name="email" id="" placeholder="Votre email" required><br>
+                                            <input type="tel" name="contact" id="" placeholder="Votre numéro de téléphone" required>
+                                        </div>
+                                        <div>
+                                            <textarea name="message" id="" placeholder="Votre message"></textarea>
+                                        </div>
+                                    </div>
+                                    <input type="submit" value="Envoyer" class="submit">
+                            </form>
+                        </article>
+                        <p>Suivez-moi sur : </p>
+                        <a href="#">
+                            <i class="fab fa-facebook-square facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter-square twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest-square pinterest"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram-square instagram"></i>
+                        </a>
+                </section>
+			</main>
+		<!--Pied de page de la page-->
+			<footer class="footer">
+				<a rel="license" href="https://www.w3schools.com/" alt="Propriété de la 3W Academy">
+					<img src="../instructions/ressources/logo-3wa.png" alt="Logo 3WA">
+				</a>
+				<p>Ce matériel pédagogique est la propriété de la <a href="https://3wa.fr/propriete-materiel-pedagogique" target="_blank">3W Academy</a>. Cet exercice a été réalisé par <a href="https://www.consultantweb.eu/">Christiane Dumont</a>.</p>
+                <p>Image fournie par <a href="https://pixabay.com/">Pixabay</a></p>
+			</footer>
+	</body>
+</html>
+
+

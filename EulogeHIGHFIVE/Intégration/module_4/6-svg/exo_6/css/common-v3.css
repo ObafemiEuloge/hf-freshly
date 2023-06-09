@@ -1,0 +1,236 @@
+/*--------------------------------------
+Toolbox
+--------------------------------------*/
+/*Inclure les marges externes, internes et les bordures dans la taille des éléments*/
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+/******************GENERALITES**********************/
+
+/*Le corps du document*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif; 
+	color: #555;
+	background-color: rgb(206, 206, 206);
+	line-height: 1.5;
+}
+
+/*Le titre principal*/
+
+h1{
+	font-size: 4rem;
+	color: #dd5735;
+}
+
+/*Le second de second niveau*/
+h2{
+	font-size: 3.2rem;
+	color: #333; 
+}
+
+/*Le titre de troisième niveau*/
+h3{
+	font-size: 2.4rem;
+}
+
+/************Les liens*********/
+a{
+	text-decoration: none;
+	color: #dd5735;
+}
+
+/************CONTENU DU SITE**************/
+main{
+	padding: 2rem;
+	max-width: 980px;
+	margin-inline: auto;
+}
+
+/*l'entête de la page*/
+.header{
+	text-align: center;
+	background-color: #444;
+	border: 1px solid #dd5735;
+	margin-bottom: 20px;
+	color: #777;
+	
+}
+
+.header p{
+	color: #999;
+}
+
+.footer{
+	text-align: center;
+	background-color: #444;
+	border: 1px solid #555;
+	margin-top: 20px;
+	color: white;
+	/* padding-top: 10px; */
+	
+}
+
+.parent{
+	/* border: dashed | dotted | solid | double*/
+	border: 1px #dd5735;
+	border-style: dashed;
+}
+
+article{
+	background-color: #fff;
+	padding: 1px 1em;
+}
+
+.card,
+.cards div{
+	background-color: white;
+	padding: 2rem;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.gutter div{
+	background-color: white;
+	padding: 2rem;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+	margin: 1rem;
+
+}
+
+.code{
+	background-color: rgb(220, 218, 218);
+	border: solid 1px #bbb;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+/** Image de la classe footer **/
+
+.footer img {
+	width: 70px;
+	margin-top: 10px;
+}
+
+table{
+	border: solid 1px #ccc;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+tr,
+td,
+th{
+	border: solid 1px #ccc;
+	padding: 0.5em;
+}
+
+th{
+	border-bottom: solid 2px #888;
+}
+
+table .tr{
+	background-color: #ccc;
+}
+
+table tfoot tr{
+	border-top: solid 2px #888;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.coordonnees{
+	padding: 2rem;
+	border: solid 1px #bbb;
+	border-radius: 10px;
+	margin-block: 2rem;
+}
+
+.div1{
+	margin-bottom: 2rem;
+
+}
+label{
+	display: inline-block;
+	width: 30%;
+}
+
+.coordonnees .prenom,
+.coordonnees .nom{
+	border-bottom: solid 1px #bbb;
+}
+
+.coordonnees input{
+	width: 70%;
+	margin-block: 2rem;
+	border: solid 1px #bbb;
+	border-radius: 5px;
+	padding: 0.5rem;
+	
+}
+
+.demande{
+	width: 100%;
+	padding: 2rem;
+	border: solid 1px #bbb;
+	border-radius: 10px;
+
+}
+
+.demande select,
+.demande textarea{
+	display: inline-block;
+	width: 100%;
+	margin-block: 1rem;
+	border: solid 1px #bbb;
+	border-radius: 5px;
+}
+
+.demande select {
+	padding: 0.5rem;
+}
+
+.demande textarea{
+	height: 15rem;
+	padding: 1rem;
+}
+
+.submit{
+	width: 100%;
+	margin-top: 2rem;
+	text-align: center;
+	padding: 2rem;
+	border: solid 1px #bbb;
+	border-radius: 10px;
+}
+
+.submit input{
+	background-color: #dd5735;
+	color: white;
+	padding: 1rem 2rem;
+	border: solid 1px #dd5735;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.submit input:hover{
+	color: #dd5735;
+	background-color: #fff;
+}
+
+
+
+

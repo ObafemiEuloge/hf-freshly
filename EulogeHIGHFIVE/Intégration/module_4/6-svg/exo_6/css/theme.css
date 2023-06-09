@@ -1,0 +1,18 @@
+
+
+circle{
+    fill: #f8cc34;
+    stroke:#f69933;
+    stroke-width: 5;
+
+}
+
+line{
+    fill: #f69933;
+    stroke-width: 5;
+}
+
+text{
+    font-size: 2rem;
+    fill: red;
+}

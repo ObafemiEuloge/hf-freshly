@@ -1,0 +1,39 @@
+/****** Déclaration de la police Cardo *******/
+
+/* Muli Rgular */
+@font-face {
+    font-family: "Cardo";
+    src: url(../../instructions/ressources/fonts/cardo/cardo-regular.woff) format(woff),
+         url(../../instructions/ressources/fonts/cardo/Cardo-Regular.ttf) format("ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Muli Italic */
+@font-face {
+    font-family: "Cardo";
+    src: url(../../instructions/ressources/fonts/cardo/cardo-italic.woff) format("woff"),
+         url(../../instructions/ressources/fonts/cardo/Cardo-Italic.ttf) format("ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*  */
+@font-face {
+    font-family: "Cardo";
+    src: url(../../instructions/ressources/fonts/cardo/cardo-bold.woff) format("woff"),
+         url(../../instructions/ressources/fonts/cardo/Cardo-Bold.ttf) format("ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Déclaration de la police SpecialElite */
+@font-face {
+    font-family: SpecialElite;
+    src: url(../../instructions/ressources/fonts/specialelite/SpecialElite.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* WOFF = Web Open Font Format
+url(.............) format("format concerné") */

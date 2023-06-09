@@ -1,0 +1,19 @@
+/* Déclaration de la police Oswald */
+@font-face {
+    font-family: Slabo27px;
+    src: url(../../slabo27px/Slabo27px-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Open-sans;
+    src: url(../../opensans/OpenSans[wdth\,wght].ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Open-sans;
+    src: url(../../opensans/OpenSans-Italic[wdth\,wght].ttf);
+    font-weight: 400;
+    font-style: italic;
+}

@@ -1,0 +1,19 @@
+$clr-primaire: #dd5735;
+$clr-secondaire: #fff;
+
+main article {
+    padding: 1rem;
+}
+
+main article a {
+    background-color: #dd5735;
+    color: #fff;
+    border: solid 1px #dd5735;
+    transition: all 0.6s;
+    padding: 0.5rem 1rem;
+  }
+  
+  main article a:hover {
+    color: #dd5735;
+    background-color: #fff;
+  }

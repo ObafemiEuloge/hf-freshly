@@ -1,0 +1,115 @@
+.wraper nav ul{
+    display: flex;
+}
+
+
+
+.test1{
+   display: flex;
+   padding-left: 0;
+}
+li{
+    list-style: none;
+    border: solid 1px #ddd;
+    padding: 2rem;
+    background-color: #fff;   
+}
+
+.row-reverse{flex-direction: row-reverse;}
+.column{flex-direction: column;}
+.column-reverse{flex-direction: column-reverse;}
+
+.nowrap{
+    display: inline-flex;
+    width: 21%;
+    flex-wrap: nowrap;
+}
+.wrap{
+    width: 21%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.center li:nth-child(odd){
+    padding-block: 5rem;
+}
+
+.center{align-items: center;}
+.flex-start li:nth-child(odd){padding-block: 5rem;}
+.flex-start{align-items: flex-start;}
+.flex-end li:nth-child(odd){padding-block: 5rem;}
+.flex-end{align-items: flex-end}
+.justify-content{justify-content: center;}
+.justify-start{justify-content: start;}
+.justify-end{justify-content: end;}
+.space-between{justify-content: space-between;}
+.space-around{justify-content: space-around;}
+.space-evenly{justify-content: space-evenly;}
+.order :nth-child(1){order: 4;}
+.order :nth-child(2){order: 2;}
+.order :nth-child(3){order: 6;}
+.order :nth-child(4){order: 1;}
+.order :nth-child(5){order: 3;}
+.order :nth-child(6){order: 5;}
+.grow :nth-child(1){flex-grow: 1;}
+.grow :nth-child(2){flex-grow: 1;}
+.grow :nth-child(3){flex-grow: 2;}
+.grow :nth-child(4){flex-grow: 1;}
+.grow :nth-child(5){flex-grow: 1;}
+.grow :nth-child(6){flex-grow: 1;}
+
+.shrink :nth-child(1){
+    flex-grow: 1;
+    flex-basis: 150px;
+}
+.shrink :nth-child(2){
+    flex-grow: 1;
+    flex-basis: 150px;
+}
+
+
+.shrink :nth-child(3){
+    flex-grow: 1;
+    flex-shrink: 4 ;
+    flex-basis: 150px;
+}
+.shrink :nth-child(4){
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+.shrink :nth-child(5){
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+.shrink :nth-child(6){
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+
+/* .grow2 :nth-child(1){flex-grow: 1;}
+.grow2 :nth-child(2){flex-grow: 2;}
+.grow2 :nth-child(3){flex-grow: 1;} */
+
+.grow2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.grow2 h2{
+    flex-basis: 100%;
+}
+
+.grow2 section{
+    flex-basis: calc((100% / 3) - 2rem);
+    border: solid 1px #ddd;
+    padding: 2rem;
+}
+
+.grow2 section:nth-child(1),
+.grow2 section:nth-child(2){
+    flex-grow: 1;
+}
+.grow2 section:nth-child(3){
+    flex-grow: 2;
+}

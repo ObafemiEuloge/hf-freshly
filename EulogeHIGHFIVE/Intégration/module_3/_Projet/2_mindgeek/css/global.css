@@ -1,0 +1,362 @@
+/**************************
+GENERALITES    
+**************************/
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: Candal;
+    font-weight: normal;
+}
+
+
+.header h1{
+    font-size: 3rem;
+}
+
+
+.header p{
+    font-size: 2em;
+}
+/* .header p{
+    font-size: 2em;
+} */
+
+.main{
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+.main h2{
+    font-size: 1.8remem;
+}
+
+.main h3{
+    font-size: 1.2rem;
+}
+
+/**************************
+HEADER    
+**************************/
+
+
+.header nav{
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* padding-block: 1rem; */
+}
+.header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+}
+
+.header i{
+    display: block;
+    color: #fb8b9b;
+    font-size: 2rem;
+}
+
+.header i:hover,
+.header i:focus{
+    color: #20424e;
+}
+
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #20424e;
+    text-align: center;
+    text-transform: capitalize;
+}
+.header nav ul li a:hover,
+.header nav ul li a:focus{
+/* .header nav ul li a:visited */
+    color: #fb8b9b;
+}
+.background{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../Instruction/img/background.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+.header input{
+    width: 100%;
+    padding: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    background-color: #fb8b9b;
+}
+
+/**************************
+MAIN HOME
+**************************/
+.main{
+    color: #213e4e;
+    text-align: center;
+}
+
+.main section div{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
+.main p{
+    font-family: Open-sans;
+}
+
+.main section article i{
+    color: #fb8b9b;
+    font-size: 2rem;
+    
+}
+
+.main h3,
+.section2 article p:nth-of-type(1){
+    color: #fb8b9b;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.main section h2{
+    padding: 2rem;
+    border-top: dashed 1px #20424e;
+    border-left: dashed 1px #20424e;
+    border-right: dashed 1px #20424e;
+}
+
+.main section article p{
+    text-align: left;
+}
+
+.main section article{
+    margin-inline: 1rem;
+}
+
+
+/**************************
+MUTUALISE    
+**************************/
+
+.mutualise{
+    border: dashed 1px #20424e;
+    padding: 0.5rem;
+    font-family: Open-sans;
+    color: #20424e;
+    text-align: left;
+}
+
+
+
+.mutualise h3{
+    font-family: Candal;
+    color: white;
+    background-color: #213e4e;
+    padding: 1rem;
+}
+
+.mutualise ul {
+    list-style: circle;
+}
+
+.section2 .mutualise p:nth-of-type(1){
+    color: #20424e;
+}
+
+.commande{
+    font-family: Candal;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #fb8b9b;
+    border: solid 1px #fb8b9b;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.commande:hover{
+    background-color: #fff;
+    color: #fb8b9b;
+    font-weight: 700;
+}
+
+.mutualise .prix{
+    font-family: Candal;
+    text-align: center;
+}
+
+/**************************
+SERVEUR DEDIE    
+**************************/
+
+.dedie{
+    width: 30%;
+}
+
+
+/**************************
+CONTACT    
+**************************/
+
+.section2 div .contact p{
+    width: 100%;
+    border-top: dashed 1px #fb8b9b;
+    padding: 2rem;
+    color: #20424e;
+}
+
+.section2 .contact {
+    width: 30%;
+}
+
+.section2 .contact p a{
+    text-decoration: none;
+    color: #fb8b9b;
+}
+
+iframe{
+    width: 100%;
+    height: 40vh;
+    margin: 1rem;
+}
+
+/**************************
+FOOTER    
+**************************/
+
+.footer{
+    background-color: #213e4e;
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Open-sans;
+}
+
+.footer p{
+    font-family: Open-sans;            
+}
+
+
+.footer img{
+    width: 70px;
+    margin-top: 2rem;
+}
+
+.footer nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+
+.footer nav ul li a{
+    font-family: Candal;
+}
+
+.footer nav ul li a:hover,
+.footer nav ul li a:focus{
+    color: #fb8b9b;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+    /**************************
+    HEADER
+    **************************/
+    .header nav{
+       align-items: center;
+        flex-direction: column;
+    }
+
+    .header nav ul {
+        flex-direction: column;
+        gap: 2rem;
+        padding-left: 0;
+    }
+
+    .header nav ul li a{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .header nav ul li{
+        text-align: center;
+    }
+
+    /**************************
+    BACKGROUND
+    **************************/
+
+    .background{
+        width: 100%;
+        height: auto;
+    }
+
+    .background h1{
+        width: auto;
+    }
+
+    .background p{
+        width: auto;
+        font-size: 1.6rem;
+    }
+    /**************************
+    MAIN HOME
+    **************************/
+
+    div{
+        flex-direction: column;
+    }
+
+    /**************************
+    MUTUALISE
+    **************************/
+    .mutualise{
+        margin-block: 1rem;
+    }
+
+    /**************************
+    SERVER DEDIE
+    **************************/
+
+    .dedie{
+        width: 100%;
+    }
+
+    /* footer */
+    .footer nav ul{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+        padding-left: 0;
+    }
+
+    .section2 .contact {
+        width: 100%;
+    }
+
+}

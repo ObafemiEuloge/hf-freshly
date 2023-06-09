@@ -1,0 +1,86 @@
+@import url(./font-face.css);
+
+body{
+    display: flex;
+    max-width: 1140px;
+    margin-inline: auto;
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: Inter, LexendDeca;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(277, 64%, 61%);
+    width: 900px;
+    /* background-image: url(../images/image-header-desktop.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: auto; */
+    border-radius: 7px;
+}
+
+.stat{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(244, 38%, 16%);
+    /* background-attachment: fixed; */
+    flex-basis: 50%;
+    height: 23rem;
+    align-items: center;
+    /* height: 371px; */
+    border-radius: 5px;
+    padding: 0.1rem;
+}
+
+.image{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+.image img{
+    display: block;
+    width: 100%;
+    opacity: 0.6;
+    
+}
+
+
+h2, h3{
+    /* text-align: center; */
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+h2 span{
+    color: hsl(277, 64%, 61%);
+}
+.stat p{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.text p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 200;
+}
+
+.text article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    text-align: left;
+    height: 100%;
+}

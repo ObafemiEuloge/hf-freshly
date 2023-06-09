@@ -1,0 +1,44 @@
+.loader2{
+    position: relative;
+    width: 65px;
+    aspect-ratio: 1;
+    /* background-color: #000; */
+    margin: 4rem auto;
+    padding: 4rem;
+    animation: loader-animation-2 1s steps(5, jump-both) infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+[class*=rond]{
+    position: absolute;
+    width: 65px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.rond1{
+    border: solid 2px blue;
+}
+.rond2{
+    border: solid 2px yellow;
+    top: 5px;
+    left: 5px;
+}
+.rond3{
+    border: solid 2px red;
+    top: -5px;
+}
+
+
+@keyframes loader-animation-2 {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}

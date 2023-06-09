@@ -1,0 +1,76 @@
+.toolbar{
+    padding: 1em 2em;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    text-align: center;
+}
+fieldset{
+    margin-block: 2em;
+    padding: 1em;
+    font-size: 1em;
+    border:solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+}
+
+legend{
+    padding-inline: 1em;
+    font-size: 1.8em;
+}
+
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    padding-block: 0.5em;
+    padding-inline: 1em;
+    color: #333;
+    font-size: 1.6em;
+    background-color: #fff;
+    border-color: #ccc;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    width: 70%;
+
+}
+
+
+textarea{
+    height: 20rem;
+}
+
+label{
+    display: inline-block;
+    font-size: 1.5em;
+    width: 30%;
+    padding: 0.5em;
+}
+
+select,
+textarea{
+    padding-block: 0.5em;
+    padding-inline: 1em;
+    color: #333;
+    font-size: 1.6em;
+    background-color: #fff;
+    border-color: #ccc;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    width: 100%;
+    margin-block: 1em;
+    font-size:1.6em ;
+}
+
+.button{
+    padding-block: 1em;
+    padding-inline: 2em;
+    font-size: 1.6em;
+    color: #fff;
+    background-color: #dd5735;
+    border: solid 1px #dd5735;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: #dd5735;
+    background-color: #fff;
+}

@@ -1,0 +1,28 @@
+/*******************
+GENERALITES
+*******************/
+body{
+    line-height: 1.5;
+}
+.container{
+    max-width: 960px; /* ==> margin-inline | margin-right | margin-left | */
+    margin: 0 auto;
+    text-align: justify;
+    padding-bottom: 1em;
+}
+
+/********************
+IMAGES & FLOAT
+********************/
+
+.moon_cat{
+    float: left;
+    margin-right: 0.5em;
+    /* width: 220px; */
+}
+
+.birman_cat{
+    float: right;
+    margin-left: 0.5em;
+    /* width: 220px; */
+}

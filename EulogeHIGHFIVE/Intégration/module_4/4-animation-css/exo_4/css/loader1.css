@@ -1,0 +1,39 @@
+.parent{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 400px;
+    aspect-ratio: 16 / 9;
+    margin: 2rem auto;
+    padding: 2rem;
+    
+}
+
+.parent div{
+    width: 4rem;
+    height: 80%;
+    background-color: #fff;
+    animation: loader-animation 1.5s infinite;
+    
+}
+
+.parent div:nth-child(1){
+    animation-delay: 0s;
+}
+.parent div:nth-child(2){
+    animation-delay: 0.2s;
+}
+.parent div:nth-child(3){
+    animation-delay: 0.4s;
+}
+
+@keyframes loader-animation {
+    from{
+        transform: scaleY(1.5);
+    }
+    to{
+        transform: scaleY(1);
+    }
+}

@@ -1,0 +1,42 @@
+article{
+    margin-block: 2rem;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: #f9c;
+}
+
+.static{
+    position: static;
+    background-color: #9c6;
+}
+
+.relative{
+    position: relative;
+    right: 5em;
+    background-color: #fc3;
+}
+
+.relative-parent{
+    position: relative;
+    margin: 0;
+}
+
+.sous{
+    position: absolute;
+    padding: 1rem;
+    margin: 0;
+    right: 0;
+    top: 0;
+    background-color: #f93;
+}
+
+.fixed{
+    position: fixed;
+    width: 400px;
+    top: 3rem;
+    right: 0;
+    background-color: #69c;
+}

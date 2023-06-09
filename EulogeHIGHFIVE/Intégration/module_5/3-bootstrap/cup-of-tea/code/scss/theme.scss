@@ -1,0 +1,10 @@
+// Importation de bootstrap
+@import "../bootstrap/scss/bootstrap.scss";
+
+
+// Customisation personalisée
+
+header,
+footer{
+    background-image: url("../../img/bg.jpg");
+}

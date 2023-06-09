@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GIT</title>
+    <style>
+    </style>
+</head>
+<body class="container bg">
+    <h1 class="text-bg-danger p-3 m-3 text-center shadow rounded-4">GIT Learning</h1>
+    <p class="text-center"><strong class="text-danger">GIT</strong> est un VCS (Version Control System) ou en français un système de controle de version.</p>
+    <p>On distingue plusieurs types de systèmes: 
+        <ul class="list-group">
+            <li class="list-group-item">Le système de gestion de version local</li>
+            <li class="list-group-item">Le système de gestion de version centralisé</li>
+            <li class="list-group-item">Le système de gestion de version distribué</li>
+            
+        </ul>
+    </p>
+    <p><strong class="text-danger">GIT</strong> fonctionne avec des instantanés.</p>
+    <p><strong class="text-danger">Un instantané</strong> est la sauvegarde de la version d'un fichier à un instant donné.</p>
+    <p>Un fichier peut être <strong class="text-primary">modifié </strong>;</p>
+    <p>Un fichier peut être <strong class="text-primary">indexé </strong>;</p>
+    <p>Un fichier peut être <strong class="text-primary">validé</strong>.</p>
+    <p>Il existe trois sections dans un projet GIT que sont :
+        <ol class="list-group list-group-numbered">
+            <li class="list-group-item">Espace de travail</li>
+            <li class="list-group-item">Zone d'index</li>
+            <li class="list-group-item">Repertoire GIT</li>
+        </ol>
+    </p>
+
+    <div class="border bg-white shadow p-4">
+        <h2 class="text-danger">Les commandes en général</h2>
+        <code class="text-black">
+            <strong class="text-primary">cd</strong> -----------------------> pour changer de repertoire <br>
+            <strong class="text-primary">dir</strong> ----------------------> pour lister tout ce qu'il y a dans un répertoire <br>
+            <strong class="text-primary">cls/clear/CTRL+L</strong> ---------> pour supprimer  <br>
+        </code>
+        <h2 class="text-danger mt-4">Les commandes en GIT</h2>
+        <code class="text-black">
+            // Configuration globale pour tous les projets // <br><br>
+            <strong class="text-primary"> git config --global user.name "Votre nom d'utilisateur"</strong> -----------------> pour entrer le nom d'utilisateur <br>
+            <strong class="text-primary"> git config --global user.email "Votre adresse email"</strong> --------------------> pour configurer l'adresse email à associer <br><br>
+            // Configuration pour un projet spécifique // <br><br>
+        
+            <strong class="text-primary"> git config --local user.name "Votre nom d'utilisateur"</strong> ------------------> pour entrer le nom d'utilisateur <br>
+            <strong class="text-primary"> git config --local user.email "Votre adresse email"</strong> ---------------------> pour configurer l'adresse email à associer <br><br>
+            ==============================================================================================================================<br><br>
+            <strong class="text-primary">git init</strong> -----------------------------------------------------------------> pour initialiser le repertoire <br>
+            <strong class="text-primary">git add * / git add (nom du fichier)</strong> -------------------------------------> pour indexer le projet <br>
+            <strong class="text-primary">git status</strong> ---------------------------------------------------------------> pour voir le statut de chaque projet<br>
+            <strong class="text-primary">git commit -m "message"</strong> --------------------------------------------------> pour valider les fichiers indexés<br>
+            <strong class="text-primary">git log"</strong> -----------------------------------------------------------------> pour voir toutes les sauvegardes<br>
+            <strong class="text-primary">git commit --amend -m "Message"</strong> ------------------------------------------> permet de remplacer un fichier validé après indexation<br>
+            <strong class="text-primary">git remote -v"</strong> -----------------------------------------------------------> permet de voir les serveurs auxquels le projet est connecté<br>
+            <strong class="text-primary">git remote add nom_du_serveur adresse_du_serveur</strong> -------------------------> permet de voir les serveurs auxquels le projet est connecté<br>
+            <strong class="text-primary">git remote remove nom_du_serveur</strong> -----------------------------------------> permet de supprimer un serveur relié à un projet<br>
+            <strong class="text-primary">git push -u origin nom_de_la_branche</strong> -------------------------------------> permet d'envoyer un projet vers le serveur<br>
+        
+        </code>
+    </div>
+
+
+</body>
+</html>

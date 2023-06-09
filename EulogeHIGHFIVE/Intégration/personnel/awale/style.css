@@ -1,0 +1,74 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image: url(./Wallpapers/bgc.jpg);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    font-family: Poppins;
+    backdrop-filter: blur(7px);
+}
+
+.header{
+    background-color: rgba(255, 255, 255, 0.365);
+    border: solid 2px rgba(128, 0, 0, 0.695);
+    width: 100%;
+    text-align: center;
+    margin-block: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.255);
+    
+    border-radius: 30px;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.team1,
+.team2{
+    display: flex;
+    padding: 1rem;
+    background-color: aliceblue;
+    width: 900px;
+}
+
+.inter{
+    border: solid 1px rgb(239, 114, 114);
+    background-color: rgb(239, 114, 114);
+    height: 50px;
+    width: 900px;
+}
+
+.team1 div,
+.team2 div{
+    width: 900px;
+    aspect-ratio: 1;
+    background-color: rgb(255, 255, 255);
+    margin-inline: 1rem;
+    border-radius: 50%;
+    border: solid 1px rgb(239, 114, 114);
+
+}
+
+.team1{
+    border-radius: 20px 20px 0 0 ;
+}
+.team2{
+    border-radius: 0 0 20px 20px ;
+}
+
+.pion{
+    width: 10px;
+}

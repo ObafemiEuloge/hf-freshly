@@ -1,0 +1,64 @@
+h3{
+    margin: 0;
+}
+
+div{
+    background-color: #fff;
+}
+
+div p{
+    background-color: rgb(223 195, 10);
+    width: 250px;
+    margin-inline: auto;
+    padding: 1rem;
+
+}
+
+.div1 p{transform: translate(200px );}
+.div2 p{transform: scale(0.5);}
+.div3 p{transform: rotate(45deg);}
+.div4 p{transform: skew(15deg);}
+.div5 p{transform: rotate(45deg) scale(0.5) translateX(200px) translateY(-200px);}
+
+.div6{
+    margin-block: 2rem;
+}
+
+.div6 p{
+   background-color: rgb(10, 162, 239);
+    transition: all 1s ease-in-out;
+}
+
+.div6 p:hover{
+    transform: scale(1.5);
+}
+
+.div7{
+    padding: 1rem;
+}
+.div7 p:nth-child(3){
+    background-color: rgb(80, 200, 0);
+    transition: all 1s ease-in-out;
+}
+
+main .div7 p:nth-child(2){
+    background-color: #dd5735;
+    padding: 0.5rem 2rem;
+    border: solid 1px #dd5735;
+    border-radius: 5px;
+    width: 50px;
+    margin-inline: 0px;
+    color: #fff;
+    text-align: left;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.div7 p:nth-child(2):hover{
+    background-color: #fff;
+    color: #dd5735;
+}
+
+.div7 p:nth-child(2):active ~ p:nth-child(3){
+    transform: scale(1.7) rotate(1turn);
+}

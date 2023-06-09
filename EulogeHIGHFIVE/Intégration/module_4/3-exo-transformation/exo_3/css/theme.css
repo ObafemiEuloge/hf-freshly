@@ -1,0 +1,51 @@
+main article {
+    margin-block: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+main article img{
+    transition: all 0.5s ease-in-out;
+}
+
+.projet{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    /* width: 285px; */
+    aspect-ratio: 1;
+    padding: 1rem ;
+    border: solid 5px #dd5735;
+    border-radius: 50%;
+    margin-inline: auto;
+}
+
+.projet img{
+    vertical-align: middle;
+}
+
+.projet figcaption{
+    position: absolute;
+    color: #dd5735;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-weight: 700;
+    transition: all .5s;
+    z-index: -1;
+}
+
+.projet:hover figcaption{
+    transform: scale(2) translateY(-0.7rem);
+    z-index: 1;
+}
+
+
+
+main article:nth-child(1) img:hover{
+    transform: rotate(90deg);
+}
+
+.projet:hover img{
+    transform: scale(0.5);
+}

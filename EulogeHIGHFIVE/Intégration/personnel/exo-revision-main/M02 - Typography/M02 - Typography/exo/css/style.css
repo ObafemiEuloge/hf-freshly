@@ -1,0 +1,144 @@
+@import url(./font-face.css);
+
+/* Le corps de la page */
+
+body{
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Les titres et sous-titres de la page */
+h1,
+h2, 
+h3 {
+    font-family: Blacksword ;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    line-height: 2em;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 2.5em;
+    line-height: 1.2em;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1.5em;
+    line-height: 1;
+    font-weight: 400;
+}
+/* h3::before{
+    content: "\2767  ";
+} */
+
+/* article p:first-letter,
+article p:first-letter{
+    font-size: 3em;
+    line-height: 1em;
+    padding-right: 10px;
+    float: left;
+    font-family: SpecialElite;
+    font-weight: 400;
+} */
+
+/************ citation, paragraphe, auteur et source **************/
+.citation_en{
+    font-family: "Cardo";
+    font-style: italic;
+}
+
+q{
+    font-family: Cardo;
+    font-style: italic;
+}
+
+p{
+    font-family: Cardo;
+    text-align: justify;
+}
+
+
+.vinci{
+    font-style: normal;
+}
+
+.a_wiki{
+    text-decoration: none;
+    color: black;
+}
+.wiki{
+    font-style: normal;
+    text-decoration: none;
+}
+
+.exupery{
+    text-align: right;
+    /* font-style: normal; */
+
+}
+
+/*************** Blockquotes ************/
+
+.blockquote1{
+    text-align: center;
+}
+.blockquote2{
+    text-align: right;
+}
+
+.blockquote2 .citation::before,
+.blockquote1 .citat::before{
+    content: "\00AB  ";
+}
+
+.blockquote2 .citation::after,
+.blockquote1 .citat::after{
+    content: "  \00BB";
+}
+
+.blockquote2 .citation{
+    font-style: italic;
+}
+
+.m-dashed{
+    text-decoration: none;
+    /* border-bottom: 1px dashed #333; */
+    color: pink;
+}
+
+.motif{
+    text-align: center;
+    margin-top: 3em;
+    font-size: 3em;
+    color: #111;
+}
+
+img{
+    max-width: 100%;
+}
+
+footer{
+    max-width: 1400px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+footer img{
+    width: 70px;
+}
+
+footer p a{
+    color: pink;
+}
+
+
+

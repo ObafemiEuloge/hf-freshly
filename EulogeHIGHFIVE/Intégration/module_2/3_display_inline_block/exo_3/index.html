@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Template du module 2">
+		<meta name="keywords" content="template, module, html,css,box">
+		<!--Lien vers le fichier common-v1.css-->
+		<link rel="stylesheet" href="./css/common-v1.css">
+		<!--Lien vers le fichier theme.css-->
+		<link rel="stylesheet" href="./css/theme.css">
+		<!-- favicon -->
+		<link rel="icon" href="./img/logo-3wa.png" type="image/x-icon">
+		<title>Display inline_block</title>
+	</head>
+	<body>
+		<!--Entête de la page-->
+			<header class="header">
+				<h1>Colonnes avec display inline-block</h1>
+				<p>Faire des colonnes avec la propriété display inline-block</p>
+			</header>
+			<!--Corps principal de la page-->
+			<main>
+					<h2>Parent sans hack</h2>
+					<section class="parent">				
+						<article class="card card1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+						<article class="card card2">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Est, suscipit!</article>	
+					</section>
+
+					<h2>Avec article collés</h2>
+					<section class="parent">
+						<article class="card card3"> ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article><article class="card card4">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione incidunt eos eveniet cupiditate possimus accusantium quod amet inventore officia!</article>
+					</section>
+
+					<h2>Avec commentaire entre les articles</h2>
+					<section class="parent">
+						<article class="card">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article><!--
+						--><article class="card">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione incidunt eos eveniet cupiditate possimus accusantium quod amet inventore officia!</section>
+					</section>
+				</article>
+
+				<h2>Méthode CSS pure</h2>
+				<section class="parent parent0">
+					<article class="card">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+					<article class="card">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione incidunt eos eveniet cupiditate possimus accusantium quod amet inventore officia!</article>					
+					</section>
+					<h2>Méthode CSS pure + vertical-align: top</h2>
+					<section class="parent parent0">
+						<article class="card card7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+						<article class="card card8">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione incidunt eos eveniet cupiditate possimus accusantium quod amet inventore officia!</article>
+					</section>
+				</article>
+			</main>
+			<!--Pied de page de la page-->
+			<footer class="footer">
+				<a rel="license" href="https://www.w3schools.com/" alt="Propriété de la 3W Academy">
+					<img src="./img/logo-3wa.png" alt="Logo 3WA">
+				</a>
+				<p>Ce matériel pédagogique est la propriété de la <a href="https://www.w3schools.com/" target="_blank">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+			</footer>
+	</body>
+</html>

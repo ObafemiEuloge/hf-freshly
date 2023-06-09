@@ -1,0 +1,20 @@
+span{
+    text-transform: capitalize;
+}
+cite{
+    color: deepskyblue;
+    font-style: normal;
+}
+
+q, blockquote{
+    font-style: italic;
+   /* quotes: "« " " »"; */
+} 
+
+blockquote p::before{
+    content: "\00AB";
+}
+
+blockquote p::after{
+    content: "\00BB";
+}

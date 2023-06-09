@@ -1,0 +1,29 @@
+:root{
+    --clr-primary: #dd5735 ;
+    --clr-secondary: #333;
+    --clr-three: #fff;
+    --font: Arial;
+    --size: 20px;
+}
+
+.item{
+    text-align: center;
+}
+
+
+.owl{
+    color: var(--clr-three);
+    padding: 4rem 1rem; 
+}
+
+.owl-nav{
+    text-align: center;
+}
+
+.owl-nav span{
+    font-size: 2rem;
+    margin-inline: 1rem;
+    color: var(--clr-secondary);
+    font-weight: 700;
+}
+

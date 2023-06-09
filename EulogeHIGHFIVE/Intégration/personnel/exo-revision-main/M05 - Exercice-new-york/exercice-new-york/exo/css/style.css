@@ -1,0 +1,16 @@
+body{
+    max-width: 600px;
+    font-weight: 100;
+    font-size: 14px;   
+    line-height: 21px;
+    font-family: helvetica;
+    background-color: #eee;
+    margin-inline: auto;
+    text-align: justify;
+}
+
+h2{
+    background-color: #fff;
+    border-bottom: solid 3px #ccc;
+    padding: 0.5rem;
+}

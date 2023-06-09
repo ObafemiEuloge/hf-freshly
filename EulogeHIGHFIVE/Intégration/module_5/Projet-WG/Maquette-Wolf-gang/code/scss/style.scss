@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 480px;
+    margin-inline: auto;
+}
+
+header{
+    background-image: conic-gradient(0deg 45deg white, 45deg 225deg #333333, 225deg 360deg white);
+}

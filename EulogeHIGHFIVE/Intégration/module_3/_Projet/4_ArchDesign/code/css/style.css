@@ -1,0 +1,729 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Nunito;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: normal;
+    background-color: #ededed;
+}
+
+.wrapper{
+    max-width: 1500px;
+    margin-inline: auto;
+    /* padding-inline: 2rem; */
+}
+
+.footer{
+    background-color: #00748D;
+}
+
+/***********************************
+Configuration générale
+ ***********************************/
+.header h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header nav ul li a{
+    font-size: 20px;
+}
+
+.home-ground h2{
+    font-size: 30px;
+
+}
+/***********************************
+Header et menu de navigation
+ ***********************************/
+.header{
+    background: #00748D url("../../instructions/images/path.png") repeat-x bottom;
+
+    position: relative; 
+    padding: 1rem;
+}
+.header .logo{
+    display: flex;
+    align-items: baseline;
+}
+
+.header nav{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 2rem;
+    font-family: "Fjalla One";
+    max-width: 1500px;
+    margin-inline: auto;
+}
+
+.header nav ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 2rem;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1rem;
+    transition: all 0.8s;
+}
+
+.header nav ul li a:hover,
+.header nav ul li a:focus{
+    background-color: #fff;
+    color: #00748D;
+}
+
+/***********************************
+Main
+ ***********************************/
+
+.home-ground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 13rem;
+    margin: 0;
+    background-image: url(../../instructions/images/bg-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-ground h2{
+    font-family: "Fjalla One";
+    text-transform: uppercase;
+    background-color: #CB8606;
+    padding: 0.5rem;
+    color: #fff;
+    font-weight: normal;
+}
+
+.home-ground p{
+    background-color: #fff;
+    color: #00748D;
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.prestation .prest{
+    display: flex;
+    gap: 4rem;
+}
+
+.prestation{
+    text-align: center;
+}
+
+.prestation h2,
+.prestation h3{
+    font-family: "Fjalla One";
+}
+
+.prestation h2{
+    color: #00748D;
+}
+
+.prestation h2 span{
+    color: #CB8606;
+    font-weight: 700;
+}
+
+.prest article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prest article i{
+    background-color: #CB8606;
+    padding: 1rem;
+    color: #fff;
+}
+
+.prest article a{
+    background-color: #00748D;
+    border: solid 1px #00748D;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+    display: block;
+    width: 80%;
+    transition: all 0.8s;
+}
+
+.prest article a:hover,
+.prest article a:focus{
+    background-color: #fff;
+    color: #00748D;
+}
+
+.prest article p{
+    text-align: left;
+}
+
+.prestataire .presta{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(1, 100%);
+    justify-items: center;
+}
+
+.prestataire .presta a{
+    border: solid 3px #00748D;
+}
+
+.prestataire{
+    margin-block: 3rem;
+    text-align: center;
+}
+
+.prestataire h2,
+.actualite h2{
+    color: #00748D;
+    font-family: "Fjalla One";
+}
+
+.prestataire h2 span,
+.actualite h2 span{
+    color: #CB8606;
+    font-weight: 700;
+}
+
+
+
+/***********************************
+Footer
+ ***********************************/
+
+ .footer{
+    text-align: center;
+ }
+
+ .initial{
+    background: #00748D url("../../instructions/images/path.png") repeat-x bottom;
+ }
+
+.footer .div0{
+    display: flex;
+    padding: 1rem;
+    max-width: 1500px;
+    margin-inline: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-family: "Fjalla One";
+}
+
+.footer .div1{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer .div2 a i{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-inline: 0.5rem;
+    transition: all 0.8s;
+}
+
+.footer .div2 a i:hover,
+.footer .div2 a i:focus{
+    color: #CB8606;
+}
+
+.footer .wa{
+    background-color: #555;
+    padding: 1rem;
+    color: #fff;
+}
+
+.footer .wa img{
+    width: 70px;
+}
+
+/*************************************
+Page réalisation
+**************************************/
+
+.realisation h2{
+    text-transform: uppercase;
+    color: #CB8606;
+}
+
+.realisation .real{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "i1 i2 i4 i3"
+    "i11 i5 i4 i6"
+    "i11 i8 i9 i7"
+    "i10 i14 i12 i7"
+    "i13 i14 i15 i16";
+    gap: 1rem;
+}
+
+
+
+.realisation .real img{
+    border: solid 3px #00748D;
+    max-width: 100%;
+}
+
+.i1{grid-area: i1}
+.i2{grid-area: i2}
+.i3{grid-area: i3}
+.i4{grid-area: i4}
+.i5{grid-area: i5}
+.i6{grid-area: i6}
+.i7{grid-area: i7}
+.i8{grid-area: i8}
+.i9{grid-area: i9}
+.i10{grid-area: i10;}
+.i11{grid-area: i11;}
+.i12{grid-area: i12;}
+.i13{grid-area: i13;}
+.i14{grid-area: i14;}
+.i15{grid-area: i15;}
+.i16{grid-area: i16;}
+
+
+
+/*********************************** 
+Temoignages 
+***********************************/
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.temoignage .temoins {
+    text-align: left;
+}
+
+
+.temoignage .temoins li:nth-of-type(odd){
+    list-style: url(../../instructions/images/quote.png);
+}
+
+.temoignage .temoins li:nth-of-type(even){
+    list-style: url(../../instructions/images/client.png);
+    color: #00748D;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.temoignage .temoins{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+/* .temoignage .temoins::-webkit-scrollbar{
+    border-radius: 30px;
+    width: 8px;
+    background-color: rgb(138, 138, 138);
+    height: 0;
+} */
+
+.temoignage .temoins hr{
+    border: solid 1px #CB8606;
+    width: 30%;
+}
+
+.tweet {
+    list-style: url(../../instructions/images/circle.png);
+    text-align: left;
+    line-height: 1.8;
+}
+
+/*************************************
+Actualités
+**************************************/
+.prestation{
+    margin-inline: 1rem;
+}
+
+.flex-actu .actualite{
+    width: 70%;
+}
+
+.flex-actu .actual{
+    width: 30%;
+}
+.flex .actualite h2{
+    color: #CB8606;
+    font-family: "Fjalla One";
+    text-transform: uppercase;
+}
+
+.flex .actualite h2 span{
+    color: #00748D;
+    font-weight: 700;
+}
+
+.flex .actualite article h3{
+    color: #00748D;
+    font-family: "Fjalla One";
+}
+
+
+.actu-lien{
+    background-color: #00748D;
+    border: solid 1px #00748D;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+    transition: all 0.8s;
+
+}
+
+.actu-lien:hover,
+.actu-lien:focus{
+    background-color: #fff;
+    color: #00748D;
+}
+
+.flex .actualite article h3 span{
+    color: #CB8606;
+    font-weight: 700;
+}
+
+.cuisine1{
+    display: flex;
+}
+
+.cuisine1 .img{
+    width: 50%;
+    margin-right: 1rem ;
+}
+
+.cuisine1 .desc-cuisine{
+    width: 50%;
+    text-align: left;
+    
+}
+
+.cuisine1 .img img{
+    width: 100%;
+}
+
+.cuisine1 .desc-cuisine p{
+    margin-top: 0;
+}
+
+/************************
+Responsive web design
+************************/
+
+
+/************************
+Tablette
+************************/
+
+@media  screen and (max-width: 1100px) {
+    .header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header nav ul{
+        gap: 2rem;
+        justify-content: space-between;
+    }
+
+    .prestation article{
+        width: 45%;
+    }
+
+    .prestation .prest{
+        flex-wrap: wrap;
+    }
+
+    .prestataire .presta a{
+        margin-bottom: 2rem;    
+    }
+
+    .prestataire .presta{
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+        gap: 2rem;
+    }
+
+    .footer .div1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .div0{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+
+    /* Réalisation */
+    .flex{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .realisation{
+        margin: 2rem;
+    }
+
+    .temoignage{
+        display: flex;
+        gap: 5rem;
+        margin-inline: 2rem;
+    }
+
+    .temoi{
+        width: 45%;
+    }
+
+    .temo{
+        width: 55%;
+    }
+
+    /* Actualités */
+    .cuisine1{
+        flex-direction: column;
+
+    }
+
+    .cuisine1 .img{
+        width: 100%;
+    }
+    .cuisine1 .desc-cuisine{
+        width: 100%;
+    }
+
+    .cuisine1 .desc-cuisine p{
+        width: 100%;
+    }
+
+    .flex-actu .actualite{
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .flex-actu .actual{
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .prestataire{
+        margin-block: 1rem;
+    }
+    
+}
+
+
+
+/************************
+Mobile
+************************/
+
+@media screen and (max-width: 780px) {
+    .header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-ground{
+        padding-inline: 3rem;
+    }
+
+    .home-ground p{
+        text-align: center;
+    }
+
+    .prestataire h2,
+    .prestation h2{
+        margin-top: 3rem;
+    }
+
+    .header .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header nav ul{
+        gap: 2rem;
+        justify-content: space-evenly;
+    }
+
+    .prestation article{
+        width: 100%;
+    }
+
+
+    .prestation .prest{
+        flex-wrap: wrap;
+    }
+
+    .prestataire .presta{
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(4, 25%);
+        gap: 2rem;
+    }
+
+    .prestataire .presta a{
+        margin-bottom: 6rem;
+    }
+
+    .footer .div1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .div0{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    /* Réalisation */
+    .flex{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .realisation{
+        margin: 2rem;
+    }
+
+    .temoignage{
+        display: flex;
+        flex-direction: column;
+        margin-inline: 2rem;
+    }
+
+    .temoi{
+        width: 100%;
+    }
+
+    .temo{
+        width: 100%;
+    }
+    .realisation .real{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "i1 i2"
+        "i4 i3"
+        "i4 i11"
+        "i5 i11"
+        "i6 i8"
+        "i9 i7"
+        "i10 i7"
+        "i14 i12"
+        "i14 i13"
+        "i15 i16";
+        gap: 1rem;
+    }
+    
+    
+    .i1{grid-area: i1}
+    .i2{grid-area: i2}
+    .i3{grid-area: i3}
+    .i4{grid-area: i4}
+    .i5{grid-area: i5}
+    .i6{grid-area: i6}
+    .i7{grid-area: i7}
+    .i8{grid-area: i8}
+    .i9{grid-area: i9}
+    .i10{grid-area: i10;}
+    .i11{grid-area: i11;}
+    .i12{grid-area: i12;}
+    .i13{grid-area: i13;}
+    .i14{grid-area: i14;}
+    .i15{grid-area: i15;}
+    .i16{grid-area: i16;}
+
+}
+
+
+
+/************************
+Petit mobile
+************************/
+
+@media screen and (max-width: 630px) {
+    .header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .header nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .header nav ul li a{
+        display: block;
+    }
+
+    .prestation article{
+        width: 100%;
+    }
+
+
+    .prestation .prest{
+        flex-wrap: wrap;
+    }
+
+    .prestataire .presta{
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(4, 25%);
+        gap: 2rem;
+    }
+
+    .prestataire .presta div{
+        margin-bottom: 6rem;
+    }
+
+    .footer .div1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .div0{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+}

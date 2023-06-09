@@ -1,0 +1,39 @@
+/****** Déclaration de la police Nunito *******/
+
+/* Muli Rgular */
+@font-face {
+    font-family: Nunito;
+    src: url(../../instructions/font/Nunito[wght].ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Nunito;
+    src: url(../../instructions/font/Nunito-Italic[wght].ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: Fjalla One;
+    src: url(../../instructions/font/FjallaOne-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/*******
+Correspondance des noms communs aux graisses
+
+100==>thin(hairline)
+200==>extralight(ultralight)
+300==>light
+400==>regular
+500==>medium
+600==>semi-bold
+700==>bold
+800==>extra-bold
+900==>black
+950==>extra-black
+
+*********/

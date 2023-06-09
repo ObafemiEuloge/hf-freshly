@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Template du module 2">
+		<meta name="keywords" content="template, module, html,css,box">
+		<!--Lien vers le fichier common-v1.css-->
+		<link rel="stylesheet" href="./css/common-v3.css">
+		<!--Lien vers le fichier theme.css-->
+		<link rel="stylesheet" href="./css/theme.css">
+		<!-- favicon -->
+		<link rel="icon" href="./img/logo-3wa.png" type="image/x-icon">
+		<title>Template Module 3</title>
+	</head>
+	<body>
+		<!--Entête de la page-->
+			<header class="header">
+				<h1>Template module 3</h1>
+				<p>Le template des démos du module 3 (feuille de style commune en version 3)</p>
+			</header>
+			<!--Corps principal de la page-->
+			<main>
+				<h1>Un exemple de type h1</h1>
+				<h2>Un exemple de type h2</h2>
+				<h3>Un exemple de type h3</h3>
+				<p>Un exemple de texte dans un paragraphe contenant un <a href="#">Lien vide</a> (dont l'adresse est simplement l'ancre vide #)</p>
+				<div class="parent">Un exemple de div ayant la classe "parent"</div>
+				<p>Un autre paragraphe</p>
+				<article>
+					<p>Un exemple d'article</p>
+				</article>
+				<p>Un autre paragraphe</p>
+				<div class="card"><p>Un exemple de div avec la classe .card</p></div>
+				<p>Un autre paragraphe</p>
+				<div class="cards">
+					<div>Un exemple de div avec la classe .cards</div>			
+					<div>...et contenant plusieurs div</div>						
+				</div>
+				<p>Un autre paragraphe</p>
+				<div class="cards gutter">
+						<div>Un exemple de div avec la classe .cards et la classe .gutter</div>
+						<div>... et contenant plusieurs div</div>
+					</div>
+				</div>
+				<p>Un autre paragraphe</p>
+				<pre class="code"> Un élément &lt;pre&gt; avec la classe .code</pre>
+				<p>Un autre paragraphe</p>
+				<table>
+					<thead>
+						<tr>
+							<th>Entête 1</th>
+							<th>Entête 2</th>
+							<th>Entête 3</th>
+							<th>Entête 4</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<td>Pied 1</td>
+							<td>Pied 2</td>
+							<td>Pied 3</td>
+							<td>Pied 4</td>
+						</tr>
+					</tfoot>
+					<tbody>
+						<tr class="tr">
+							<td>Case 1</td>
+							<td>Case 2</td>
+							<td>Case 3</td>
+							<td>Case 4</td>
+						</tr>
+						<tr>
+							<td>Case 5</td>
+							<td>Case 6</td>
+							<td>Case 7</td>
+							<td>Case 8</td>
+						</tr>
+					</tbody>
+				</table>
+				<p>Un autre paragraphe</p>
+				<form action="" method="post">
+					<fieldset class="coordonnees">
+						<legend>Mes coordonnées</legend>
+						<div class="prenom">
+							<label for="firstname">Prénom</label><!--
+							--><input type="text" name="firstname" id="firstname">
+						</div>
+						<div class="nom">
+							<label for="lastname">Nom</label><!--
+							--><input type="text" name="lastname" id="lastname">
+						</div>
+						<div class="email">
+							<label for="email">Email</label><!--
+							--><input type="email" name="email" id="email">
+						</div>
+					</fieldset>
+					<fieldset class="demande">
+						<legend>Ma demande</legend>
+						<select name="demande" id="">
+							<option value="0" disabled selected>Choisir l'objet de ma demande...</option>
+							<option value="q">Question d'ordre général</option>
+							<option value="g">Déclarer un bug gênant</option>
+							<option value="b">Déclarant un bug bloquant</option>
+						</select>
+						<textarea name="message" id=""></textarea>
+					</fieldset>
+					<div class="submit">
+						<input type="submit" value="Valider le fomulaire">
+						<input type="reset" value="Réinitialiser">
+					</div>
+				</form>
+			</main>
+			<!--Pied de page de la page-->
+			<footer class="footer">
+				<a rel="license" href="https://www.w3schools.com/" alt="Propriété de la 3W Academy">
+					<img src="./img/logo-3wa.png" alt="Logo 3WA">
+				</a>
+				<p>Ce matériel pédagogique est la propriété de la <a href="https://www.w3schools.com/" target="_blank">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+			</footer>
+	</body>
+</html>

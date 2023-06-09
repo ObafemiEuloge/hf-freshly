@@ -1,0 +1,59 @@
+/****** Déclaration de la police Muli *******/
+
+/* Muli Rgular */
+@font-face {
+    font-family: Muli;
+    src: url(../../instructions/ressources/Muli/Muli-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Muli Italic */
+@font-face {
+    font-family: Muli;
+    src: url(../../instructions/ressources/Muli/Muli-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*  */
+@font-face {
+    font-family: Muli;
+    src: url(../../instructions/ressources/Muli/Muli-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: Muli;
+    src: url(../../instructions/ressources/Muli/Muli-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+/******
+Barriecito
+*****/
+
+/* @font-face {
+    font-family: Barriecito;
+    src: url(https://github.com/google/fonts/blob/main/ofl/barriecito/Barriecito-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+} */
+
+
+/*******
+Correspondance des noms communs aux graisses
+
+100==>thin(hairline)
+200==>extralight(ultralight)
+300==>light
+400==>regular
+500==>medium
+600==>semi-bold
+700==>bold
+800==>extra-bold
+900==>black
+950==>extra-black
+
+*********/

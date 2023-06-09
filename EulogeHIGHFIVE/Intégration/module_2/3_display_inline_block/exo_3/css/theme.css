@@ -1,0 +1,17 @@
+.card{
+    display: inline-block;
+    width: 50%;
+}
+
+.parent0{
+    font-size: 0;
+}
+.parent0 .card,
+.parent0 .card{
+    font-size: initial;
+}
+
+.parent0 .card7,
+.parent0 .card8{
+    vertical-align: top;
+}

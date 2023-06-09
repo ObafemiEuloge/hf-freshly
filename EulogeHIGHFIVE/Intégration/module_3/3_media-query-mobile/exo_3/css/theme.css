@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.h2{
+    display: flex;
+	font-size: 2rem;
+    background-color: #ccc;
+    margin: 0;
+    padding: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+/* Tablette */
+
+@media screen and (min-width: 781px) and (max-width: 1200px)  {
+    main article{
+        flex-basis: 50%;
+    }
+    
+    main{
+        flex-flow: row wrap;
+    }  
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1201px) {
+    main{
+        flex-direction: row;
+    }
+}

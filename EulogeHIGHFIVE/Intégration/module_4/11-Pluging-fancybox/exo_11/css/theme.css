@@ -1,0 +1,13 @@
+:root{
+    --clr-primary: #dd5735 ;
+    --clr-secondary: #333;
+    --clr-three: #fff;
+    --font: Arial;
+    --size: 20px;
+}
+
+
+
+article{
+    padding: 2rem;
+}

@@ -1,0 +1,40 @@
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin-inline: 0.2rem;
+}
+
+span{
+    color: #999;
+}
+
+article .color:nth-child(3){
+    color: red;
+}
+article .color:nth-child(4){
+    color: blue;
+}
+article .color:nth-child(5){
+    color: green;
+}
+.bg-color1{
+    background-color: red;
+}
+.bg-color2{
+    background-color: blue;
+}
+.bg-color3{
+    background-color: green;
+}
+
+footer{
+    max-width: 1400px;
+    margin-inline: auto;
+    text-align: center;
+}
+

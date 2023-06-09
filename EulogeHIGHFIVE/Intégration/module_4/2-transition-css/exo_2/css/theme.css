@@ -1,0 +1,33 @@
+ul {
+    display: flex;
+    list-style: none;
+    background-color: #dd5735;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 1rem 2rem;
+    transition:  background-color 1s, color 0.2s ease-in, transform 0.5s  ;
+}
+
+/* ul li{
+    transition: all 0.5s ease-in;
+    
+}
+
+ul li:hover{
+    background-color: #fc3;
+    transform: scale(1.5);
+} */
+
+ul li a:hover{
+    
+    color: #333;
+    background-color: #fc3;
+    transform: scale(1.5);
+    
+}

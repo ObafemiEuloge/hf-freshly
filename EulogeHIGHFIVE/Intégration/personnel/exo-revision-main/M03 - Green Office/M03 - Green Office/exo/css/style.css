@@ -1,0 +1,129 @@
+@import url(./font-face.css);
+
+/* Généralités */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #777;
+
+}
+
+
+/* Entête */
+
+body{
+    background-image: url(../../img/fond.png);
+}
+
+.container{
+    max-width: 750px;
+    margin-inline: auto;
+}
+
+.header{
+    background-color:#b6ca21;
+}
+
+.header ul{
+    margin-block: 0;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav{
+    display: inline-block;
+    float: right;
+    font-family: Oswald;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    color: #333;
+}
+
+
+nav ul li{
+    float: left;
+    margin-inline: 1rem;
+}
+
+nav ul li a{
+    color: #333;
+    text-decoration: none;
+    border-bottom: solid 1px #333;
+}
+
+nav ul li a:hover{
+    color: white;
+    border-bottom: solid 1px rgb(255, 255, 255);
+}
+
+/* Corpsp de la page */
+
+.main{
+    text-align: right;
+    background-color: white;
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+.main h2{
+    text-align: left;
+    /* margin-block: 0; */
+    color: #b6ca21;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.main ul li{
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+}
+
+article img{
+    float: left;
+    width: 250px;
+    margin-inline: 1rem;
+}
+
+article a{
+    display: inline-block;
+    background-color: #b6ca21;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+article a:hover{
+    background-color: #96a51d;
+}
+
+/* Pied de page */
+footer{
+    max-width: 1400px;
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer .lien-footer{
+    color: rgb(154, 14, 214);
+}
+
+footer img{
+    width: 80px;
+}
+
+footer p{
+    text-align: center;
+}
+

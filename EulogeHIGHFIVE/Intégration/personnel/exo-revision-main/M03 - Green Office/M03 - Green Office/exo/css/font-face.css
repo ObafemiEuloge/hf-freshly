@@ -1,0 +1,10 @@
+/* Déclaration de la police Oswald */
+@font-face {
+    font-family: Oswald;
+    src: url(../font/Oswald[wght].ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* WOFF = Web Open Font Format
+url(.............) format("format concerné") */

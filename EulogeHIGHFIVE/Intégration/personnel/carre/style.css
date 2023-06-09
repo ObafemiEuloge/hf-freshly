@@ -1,0 +1,154 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image: url(./Wallpapers/bgc.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: Poppins;
+    backdrop-filter: blur(7px);
+}
+
+.header{
+    background-color: rgba(255, 255, 255, 0.365);
+    border: solid 2px rgba(128, 0, 0, 0.695);
+    width: 100%;
+    text-align: center;
+    margin: 2rem;
+}
+
+table{
+    width: 800px;
+    height: 800px;
+    background-color: aliceblue;
+    border-collapse: collapse;
+}
+
+table,
+tr,
+td{
+    border: solid 2px #111;
+}
+
+td{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.img1{
+    background-image: url(../ludo/Ludo/Gon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img2{
+    background-image: url(../ludo/Ludo/Luffy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img3{
+    background-image: url(../ludo/Ludo/Eren.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-align: right;
+}
+
+.img4{
+    background-image: url(../ludo/Ludo/Naruto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-align: right;
+}
+
+.img-centre{
+    background-image: url(../ludo/Wallpapers/bgc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    font-size: 3rem;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    background: conic-gradient(red, blue, yellow, green);
+}
+
+.img-centre:hover{
+    opacity: 0.9;
+}
+
+.rouge{
+    background-color: red;
+}
+
+.vert{
+    background-color: green;
+}
+
+.jaune{
+    background-color: yellow;
+    font-weight: 900;
+}
+
+.bleu{background-color: blue;}
+
+.pion1{
+    display: block;
+    width: 60px;
+    margin: 0.8rem;
+    aspect-ratio: 1;
+    background-color: green;
+    border-radius: 50%;
+}
+.pion2{
+    width: 60px;
+    margin: 0.8rem;
+    aspect-ratio: 1;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+.pion3{ 
+    width: 60px;
+    margin: 0.8rem;
+    aspect-ratio: 1;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.pion4{
+    width: 60px;
+    margin: 0.8rem;
+    aspect-ratio: 1;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+[class*=pion]{
+    cursor: pointer;
+}
+[class*=pion]:hover{
+    opacity: 0.5;
+}
+
+.vert:hover,
+.jaune:hover,
+.rouge:hover,
+.bleu:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}

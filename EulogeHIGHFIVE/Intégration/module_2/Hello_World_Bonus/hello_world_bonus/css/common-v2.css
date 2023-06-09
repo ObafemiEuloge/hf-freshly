@@ -1,0 +1,113 @@
+/*--------------------------------------
+Toolbox
+--------------------------------------*/
+/*Inclure les marges externes, internes et les bordures dans la taille des éléments*/
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+	line-height: 1.6em;
+}
+
+/* html{
+	font-size: 62.5%;
+} */
+
+body{
+	/* font-size: 1.6rem; */
+	margin: 0;
+	padding: 0;
+	font-family: Lato;
+}
+
+/******************GENERALITES**********************/
+
+/*Le titre principal*/
+
+/************Les liens*********/
+a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	text-decoration: underline rgb(0, 0, 0);
+
+	/* border-bottom: solid 1px ; */
+}
+
+/************CONTENU DU SITE**************/
+/* main{
+	padding: 2rem;
+	max-width: 980px;
+	margin-inline: auto;
+} */
+
+/*l'entête de la page*/
+.header{
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #ffffff;
+	margin-bottom: 20px;
+	color: #777;
+	
+}
+
+.header p{
+	color: #999;
+}
+
+.footer{
+	text-align: center;
+	background-color: #40CCEA;
+	border: 1px solid #40CCEA;
+	margin-top: 20px;
+	color: white;
+	/* padding-top: 10px; */
+	
+}
+
+.parent{
+	/* border: dashed | dotted | solid | double*/
+	border: 1px #dd5735;
+	border-style: dashed;
+}
+
+article{
+	/* background-color: #fff; */
+	/* padding: 1px 1em; */
+}
+
+.card,
+.cards div{
+	background-color: white;
+	padding: 2rem;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.gutter div{
+	background-color: white;
+	padding: 2rem;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+	margin: 1rem;
+
+}
+
+.code{
+	background-color: rgb(220, 218, 218);
+	border: solid 1px #bbb;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+/** Image de la classe footer **/
+
+.footer img {
+	width: 60px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+

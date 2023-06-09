@@ -1,0 +1,80 @@
+.general{
+    background-color: teal;
+    padding: 2em;
+    max-width: 40em;
+    min-height: 20em;
+    color: white;
+}
+
+code{
+    display: block;
+    background-color: rgba(221, 221, 221, 0.472);
+    padding: 0.5rem;
+    margin-block: 1rem;
+    border: solid 1px #ddd;
+    font-weight: 700;
+}
+
+.versus{
+    background-image: url(../../instructions/ressources/large.jpg);
+}
+
+.repeat{
+    background-image: url(../../instructions/ressources/small.jpg);
+}
+
+.no-repeat{
+    background-image: url(../../instructions/ressources/small.jpg);
+    background-repeat: no-repeat;
+}
+
+.repeat-x{
+    background-image: url(../../instructions/ressources/small.jpg);
+    background-repeat: repeat-x;
+}
+.repeat-y{
+    background-image: url(../../instructions/ressources/small.jpg);
+    background-repeat: repeat-y;
+}
+
+.contain{
+    background-image: url(../../instructions/ressources/large.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cover{
+    background-image: url(../../instructions/ressources/large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.size50{
+    background-image: url(../../instructions/ressources/large.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.size8040{
+    background-image: url(../../instructions/ressources/large.jpg);
+    background-repeat: no-repeat;
+    background-size: 80% 40%;
+}
+
+.center{
+    background-image: url(../../instructions/ressources/small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.right-top{
+    background-image: url(../../instructions/ressources/small.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.right-bottom{
+    background-image: url(../../instructions/ressources/small.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.position8040{
+    background-image: url(../../instructions/ressources/small.jpg);
+    background-repeat: no-repeat;
+    background-position: 80% 40%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Template du module 2">
+		<meta name="keywords" content="template, module, html,css,box">
+		<!--Lien vers le fichier common-v1.css-->
+		<link rel="stylesheet" href="./css/common-v1.css">
+		<!--Lien vers le fichier theme.css-->
+		<link rel="stylesheet" href="./css/theme.css">
+		<!-- favicon -->
+		<link rel="icon" href="./img/logo-3wa.png" type="image/x-icon">
+		<title>Flow</title>
+	</head>
+	<body>
+		<!--Entête de la page-->
+			<header class="header">
+				<h1>Colonnes avec float</h1>
+				<p>Faire des colonnes avec la propriété float</p>
+			</header>
+			<!--Corps principal de la page-->
+			<main>
+					<h2>Parent sans clear ni overflow</h2>
+					<section class="parent s-clear">				
+						<article class="card card1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+						<article class="card card2">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Est, suscipit!</article>	
+					</section>
+
+					<h2>Parent avec overflow</h2>
+					<section class="parent overflow">
+						<article class="card card3"> ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article><article class="card card4">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum </article>
+					</section>
+
+					<h2>Parent avec clear</h2>
+					<section class="parent">
+						<article class="card">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+						<article class="card">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum</article>
+						<div class="clear"></div>
+					</section>
+					
+				</article>
+
+				<h2>Parent avec clearfix</h2>
+				<section class="parent clear-fix">
+					<article class="card">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+					<article class="card">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum dolor </article>					
+					</section>
+			</main>
+			<!--Pied de page de la page-->
+			<footer class="footer">
+				<a rel="license" href="https://www.w3schools.com/" alt="Propriété de la 3W Academy">
+					<img src="./img/logo-3wa.png" alt="Logo 3WA">
+				</a>
+				<p>Ce matériel pédagogique est la propriété de la <a href="https://www.w3schools.com/" target="_blank">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+			</footer>
+	</body>
+</html>

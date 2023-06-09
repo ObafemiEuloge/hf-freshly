@@ -1,0 +1,184 @@
+code{
+    font-family: sans-serif;
+    color: #111;
+    font-weight: 600;
+}
+article{
+    line-height: 2;
+}
+
+/***************
+La tailles des textes
+****************/
+
+.article1 .section1 ul li:nth-child(1) {
+    font-size: medium;
+}
+.article1 .section1 ul li:nth-child(2){
+    font-size: large;
+}
+.article1 .section1 ul li:nth-child(3){
+    font-size: 14px;
+}
+.article1 .section1 ul li:nth-child(4){
+    font-size: 14pt;
+}
+.article1 .section1 ul li:nth-child(5){
+    font-size: 150%;
+}
+.article1 .section1 ul li:nth-child(6){
+    font-size: 1.5em;
+}
+.article1 .section1 ul li:nth-child(7){
+    font-size: 1.5rem;
+
+/***************
+La graisse
+****************/
+}
+.article1 .section2 ul li:nth-child(1){
+    font-weight: bold;
+}
+.fw-normal strong{
+    font-weight: normal;
+}
+.article1 .section2 ul li:nth-child(3){
+    font-weight: 700;
+}
+.article1 .section2 ul li:nth-child(4){
+    font-weight: bolder;
+}
+.article1 .section2 ul li:nth-child(5){
+    font-weight: lighter;
+}
+
+.article1 .section2 ul li:nth-child(5){
+    font-weight: lighter;
+}
+
+/***************
+Le style
+****************/
+
+.article1 .section3 ul li:nth-child(1){
+    font-style: italic;
+}
+.article1 .section3 ul li:nth-child(2) em{
+    font-style: normal;
+}
+
+/*************
+Les espacements
+*************/
+
+.article2 .section4 ul li:nth-child(1){
+    line-height: 1;
+}
+.article2 .section4 ul li:nth-child(2){
+    line-height: 1.5;
+}
+.article2 .section4 ul li:nth-child(3){
+    line-height: 4;
+}
+
+.article2 .section5 ul li:nth-child(1){
+    letter-spacing: 0.5em;
+}
+
+.article2 .section6 ul li:nth-child(1){
+    word-spacing: 2em;
+}
+
+
+/*************
+Gestion des espaces blancs
+*******************/
+
+.small {
+    width: 200px;
+    background-color: #ccc;
+}
+
+.article2 .section7 .ws-normal{
+    white-space: normal;
+}
+.article2 .section7 .ws-nowrap{
+    white-space: nowrap;
+}
+.article2 .section7 .ws-pre{
+    white-space: pre;
+}
+
+/*************
+Alignement des textes
+*******************/
+.para1{
+    text-align: left;
+}
+.para2{
+    text-align: right;
+}
+.para3{
+    text-align: center;
+}
+.para4{
+    text-align: justify;
+}
+
+/*************
+Indentation des textes
+*******************/
+
+.indent{
+    text-indent: 10%;
+}
+
+/*************
+Transormation des textes
+*******************/
+
+.none{
+    text-transform: none;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+
+/*************
+Décoration des textes
+*******************/
+
+
+.td-underline1{
+    text-decoration: underline;
+}
+.td-underline2 span{
+    color: red;
+}
+.td-underline2 span a{
+    text-decoration: none;
+}
+.td-overline{
+    text-decoration: overline;
+}
+.td-underline{
+    text-decoration: underline;
+}
+.td-underline-red{
+    text-decoration: underline red;
+}
+.td-underline-double{
+    text-decoration: underline orangered double;
+}
+.td-underline-green{
+    text-decoration: underline dashed green;
+}
+.td-underline-wavy{
+    text-decoration: underline wavy teal;
+}

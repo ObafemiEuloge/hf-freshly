@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left, $clr-secondaire, $clr-primaire);
+    padding: .5rem 1rem;
+    .logo{
+        color: $clr-tertiaire;
+        font-weight: 900;
+        font-size: 2rem;
+    
+    }
+    nav ul{
+        display: flex;
+        gap: 2rem;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: $clr-secondaire;
+                font-weight: 700;
+                padding: 1rem;
+                transition: all .8s;
+                color: $clr-tertiaire;
+            }
+            a:hover{
+                background-color: $clr-tertiaire;
+                color: $clr-secondaire;
+            }
+        }
+    }
+    
+}

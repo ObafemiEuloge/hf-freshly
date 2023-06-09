@@ -1,0 +1,22 @@
+.card{
+    float: left;
+    width: 50%;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.parent{padding: 2rem;}
+
+.overflow{overflow: auto;}
+
+.clear{
+    clear: both;
+    border-bottom: 4px solid red;
+}
+
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+    border-bottom: 4px solid #800080;
+}
+

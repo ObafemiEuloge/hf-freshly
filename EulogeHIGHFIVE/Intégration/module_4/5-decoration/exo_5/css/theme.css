@@ -1,0 +1,96 @@
+section{
+    background-color: #fff;
+    padding: 1rem;
+    margin-block: 2rem;
+}
+
+.gradient article p{
+    /* border: solid 1px black; */
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.gradient article:nth-of-type(1) p{
+    background-image: linear-gradient(#f8c533, #f56a34 );
+}
+.gradient article:nth-of-type(2) p{
+    background-image: linear-gradient(to right, #a2cc33, #f8c533, #f56a34 );
+}
+.gradient article:nth-of-type(3) p{
+    background-image: linear-gradient(70deg, #a2cc33, #f8c533, #f56a34 );    
+}
+.gradient article:nth-of-type(4) p{
+    background-image: linear-gradient(to right, #a2cc33 40%, #f8c533 10%, #f56a34 );    
+}
+.gradient article:nth-of-type(5) p{
+    background-image: repeating-linear-gradient(90deg, #a2cc33 , #f8c533, #f56a34 25% ); 
+}
+.gradient article:nth-of-type(6) p{
+    background-image: radial-gradient(#f8c533, #f56a34 );
+}
+.gradient article:nth-of-type(7) p{
+    background-image: radial-gradient(circle,#f8c533, #f56a34);
+}
+.gradient article:nth-of-type(8) p{
+    background-image: radial-gradient(circle,#f8c533, #f56a34 15%);
+}
+.gradient article:nth-of-type(9) p{
+    background-image: radial-gradient(circle at 25%,#f8c533, #f56a34 15%);
+}
+
+
+/*********************************
+Shadow
+**********************************/
+.box-shadow article p{
+    padding: 4rem ;
+    text-align: center;
+    background-color: #eee;
+}
+
+.box-shadow article:nth-of-type(1) p{
+    box-shadow: 0px 1px 2px black ;
+}
+.box-shadow article:nth-of-type(2) p{
+    box-shadow: 1px 1px 15px black ;
+}
+.box-shadow article:nth-of-type(3) p{
+    box-shadow: 0px -1px 2px black ;
+}
+.box-shadow article:nth-of-type(4) p{
+    box-shadow: 10px 10px 10px #f56a34 ;
+}
+.box-shadow article:nth-of-type(5) p{
+    box-shadow: 0px 0px 5px 10px #f56a34 ;
+}
+
+.box-shadow article:nth-of-type(6){
+    padding-block: 10rem;
+}
+.box-shadow article:nth-of-type(6) p{
+    box-shadow: 1px 3px 5px green, 0px 18px 15px 10px #f8c533, 0px 20px 15px 10px #f56a34 ;
+}
+
+/*********************************
+text-Shadow
+**********************************/
+.text-shadow article p{
+    padding: 4rem ;
+    text-align: center;
+    background-color: #eee;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.text-shadow article:nth-of-type(1) p{
+    text-shadow: 0px 1px 2px black ;
+}
+.text-shadow article:nth-of-type(2) p{
+    text-shadow: 0px 5px 3px black ;
+}
+.text-shadow article:nth-of-type(3) p{
+    text-shadow: 0px 5px 3px #f56a34 ;
+}
+.text-shadow article:nth-of-type(4) p{
+    text-shadow: 0px 3px 3px #f8c533, 0px 3px 3px #f56a34;
+}

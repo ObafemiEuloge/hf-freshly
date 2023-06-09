@@ -1,0 +1,86 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: green;
+    width: 100vw;
+}
+
+
+.terrain{
+    display: flex;
+    border: solid 5px #fff;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.terrain .gauche,
+.terrain .droite{
+    width: 150px;
+    height: 300px;
+}
+
+.terrain .gauche{
+    border-top: solid 5px #fff;
+    border-right: solid 5px #fff;
+    border-bottom: solid 5px #fff;
+}
+.terrain .droite{
+    border-top: solid 5px #fff;
+    border-left: solid 5px #fff;
+    border-bottom: solid 5px #fff;
+}
+
+.terrain .centre{
+    
+    width: 5px;
+    background-color: #fff;
+    height: 100%;
+    /* border: solid 5px #fff; */
+    /* border-radius: 50%; */
+}
+
+.ligne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-inline: auto;
+    width: 5px;
+    background-color: #fff;
+    height: 100vh;
+
+}
+
+.rond{
+    width: 250px;
+    height: 250px;
+    border: solid 5px #fff;
+    border-radius: 50%;
+    margin-left: -7.6rem;
+   margin-top: 21rem;
+}
+
+.groupegauche,
+.groupedroit{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14.5rem; 
+}
+
+.groupegauche{
+    
+}
+
+[class*="corner"]{
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}

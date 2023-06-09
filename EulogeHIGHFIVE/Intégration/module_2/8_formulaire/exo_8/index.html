@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Template du module 2">
+		<meta name="keywords" content="template, module, html,css,box">
+		<!--Lien vers le fichier common-v1.css-->
+		<link rel="stylesheet" href="./css/common-v2.css">
+		<!--Lien vers le fichier theme.css-->
+		<link rel="stylesheet" href="./css/theme.css">
+		<!-- favicon -->
+		<link rel="icon" href="./img/logo-3wa.png" type="image/x-icon">
+		<title>Un formulaire simple</title>
+	</head>
+	<body>
+		<!--Entête de la page-->
+			<header class="header">
+				<h1>Un formulaire simple</h1>
+				<p>Faire un premier formulaire simple</p>
+			</header>
+			<!--Corps principal de la page-->
+			<main>
+				<form action="">
+					<fieldset>
+						<legend>Mes coordonnées</legend>
+						<label for="firstname">Prénom</label><!--
+						--><input type="text" name="firstname" id="firstname" required><hr>
+						<label for="lastname">Nom</label><!--
+						--><input type="text" name="lastname" id="lastname" required><hr> 	
+						<label for="email">Email</label><!--
+						--><input type="email" name="email" id="email" required>
+					</fieldset>
+						
+					<fieldset>
+						<legend>Ma demande</legend>
+						<select name="objet" id="">
+							<option value="0">Choisir l'objet de ma demande...</option>
+							<option value="q">Question d'ordre général</option>
+							<option value="g">Déclarer un bug gênant</option>
+							<option value="b">Déclarer un bug bloquant</option>
+						</select><br>
+						<textarea name="textarea" id="" ></textarea>
+					</fieldset>
+					<div class="toolbar">
+						<input type="submit" value="Valider le formulaire" class="button">
+					</div>
+				</form>
+			</main>
+			<!--Pied de page de la page-->
+			<footer class="footer">
+				<a rel="license" href="https://www.w3schools.com/" alt="Propriété de la 3W Academy">
+					<img src="./img/logo-3wa.png" alt="Logo 3WA">
+				</a>
+				<p>Ce matériel pédagogique est la propriété de la <a href="https://www.w3schools.com/" target="_blank">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+			</footer>
+	</body>
+</html>

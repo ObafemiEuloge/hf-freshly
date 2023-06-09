@@ -1,0 +1,61 @@
+.general {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background-color: #222;
+    margin: 0;
+}
+
+.hidden{
+    position: relative;
+    flex-basis: auto;
+}
+
+.child{
+    display: none;
+    position: absolute;
+    background-color: #222;
+    list-style: none;
+}
+
+.hidden > a:hover + .child,
+.hidden > a:focus + .child{
+    display: block;
+    /* padding: 1rem; */
+}
+
+.child > li a{
+    display: block;
+    padding: 1rem 1.5rem;
+    border-bottom: solid 1px #ffffff2e;
+}
+
+
+
+.hidden  a{
+    display: block;
+    padding: 1rem 1.5rem;
+    margin:0;
+    min-width: 13rem;
+}
+
+.hidden a:hover,
+.hidden a:focus{
+    background-color: #dd5735;
+}
+
+.child > li a:hover{
+    background-color: #dd5735;
+}
+
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}

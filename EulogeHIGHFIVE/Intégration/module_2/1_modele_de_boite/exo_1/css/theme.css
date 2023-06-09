@@ -1,0 +1,42 @@
+body{
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.box{
+    background-color: #CCC;
+}
+
+.box2{
+    margin: 2%;
+}
+
+.box3{
+    padding: 1% 2%;
+}
+
+.box4{
+    padding: 1% 2%;
+    border: solid 2px red;
+}
+
+.box5{
+    margin: 2%;
+    padding: 1% 2%;
+    border: solid 2px red;
+    width: 60%;
+}
+
+.box6{
+    margin: 2%;
+    padding: 1% 2%;
+    border: solid 2px red;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+code{
+    font-weight: bold;
+    font-family: sans-serif;
+}

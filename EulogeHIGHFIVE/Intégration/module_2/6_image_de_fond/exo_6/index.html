@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Template du module 2">
+		<meta name="keywords" content="template, module, html,css,box">
+		<!--Lien vers le fichier common-v1.css-->
+		<link rel="stylesheet" href="./css/common-v1.css">
+		<!--Lien vers le fichier theme.css-->
+		<link rel="stylesheet" href="./css/theme.css">
+		<!-- favicon -->
+		<link rel="icon" href="./img/logo-3wa.png" type="image/x-icon">
+		<title>Background</title>
+	</head>
+	<body>
+		<!--Entête de la page-->
+			<header class="header">
+				<h1>Ajouter une image de fond</h1>
+				<p>Comprendre comment afficher et bien positionner une image de fond</p>
+			</header>
+			<!--Corps principal de la page-->
+			<main>
+				<article>
+					<h2>Image <em>versus</em> background</h2>
+					<p>L'image (ici le logo de la 3WA) est un élément &lt;img&gt;, c'est un contenu et sera référencée par les moteurs de recherche. L'image de fond (les olives) est une décoration déclarée en dans la feuille de style et NE sera PAS référencée par les moteurs de recherche.</p>
+					<p class="versus general">
+						<img src="../instructions/ressources/logo-3wa.png" alt="Logo 3WA">
+					</p>
+				</article>
+
+				<article>
+					<h2>Répétition de l'image</h2>
+					<code>background-repeat: repeat;</code>
+					<p class="repeat general">Du texte...</p>
+					<code>background-repeat: no-repeat;</code>
+					<p class="no-repeat general">Du texte...</p>
+					<code>background-repeat: repeat-x;</code>
+					<p class="repeat-x general">Du texte...</p>
+					<code>background-repeat: repeat-y;</code>
+					<p class="repeat-y general">Du texte...</p>
+				</article>
+
+				<article>
+					<h2>Ajustement de la taille de l'image du fond par rapport à son élément.</h2>
+					<code>background-size: contain;</code>
+					<p class="contain general">Du texte...</p>
+					<code>background-size: cover;</code>
+					<p class="cover general">Du texte...</p>
+					<code>background-size: 50%;</code>
+					<p class="size50 general">Du texte...</p>
+					<code>background-size: 80% 40%</code>
+					<p class="size8040 general">Du texte...</p>
+				</article>
+
+
+				<article>
+					<h2>Positionnement de l'image.</h2>
+					<code>background-position: center;</code>
+					<p class="center general">Du texte...</p>
+					<code>background-position: right top;</code>
+					<p class="right-top general">Du texte...</p>
+					<code>background-position: right bottom;</code>
+					<p class="right-bottom general">Du texte...</p>
+					<code>background-position: position 80% 40%;</code>
+					<p class="position8040 general">Du texte...</p>
+				</article>
+			</main>
+			<!--Pied de page de la page-->
+			<footer class="footer">
+				<a rel="license" href="https://www.w3schools.com/" alt="Propriété de la 3W Academy">
+					<img src="./img/logo-3wa.png" alt="Logo 3WA">
+				</a>
+				<p>Ce matériel pédagogique est la propriété de la <a href="https://www.w3schools.com/" target="_blank">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+			</footer>
+	</body>
+</html>

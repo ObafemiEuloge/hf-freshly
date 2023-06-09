@@ -1,0 +1,42 @@
+/******************GENERALITES**********************/
+
+/*Le corps du document*/
+body{
+	font-family: sans-serif; 
+	color: #555;
+	background-color: #eee; 	
+}
+
+/*Le titre principal*/
+
+h1{
+	font-size: 2.5rem;
+	color: #dd5735;
+}
+
+/*Le second de second niveau*/
+h2{
+	font-size: 2rem;
+	color: #333; 
+}
+
+/*Le titre de troisième niveau*/
+h3{
+	font-size: 1.5rem;
+}
+
+/************Les liens*********/
+a{
+	text-decoration: none;
+	color: #dd5735;
+}
+
+/************CONTENU DU SITE**************/
+
+/*l'entête de la page*/
+.header{
+	text-align: center;
+	background-color: #ddd;
+	
+}
+

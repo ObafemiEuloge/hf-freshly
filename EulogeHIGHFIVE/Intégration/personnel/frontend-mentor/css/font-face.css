@@ -1,0 +1,16 @@
+/****** Déclaration de la police Inter *******/
+
+/* Inter */
+@font-face {
+    font-family: Inter;
+    src: url(../Font/Inter[slnt\,wght].ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: LexendDeca;
+    src: url(../../frontend-mentor/Font/LexendDeca[wght].ttf);
+    font-weight: 400;
+    font-style: normal;
+}

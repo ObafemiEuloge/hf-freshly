@@ -1,0 +1,79 @@
+
+.header nav{
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 2rem;
+
+}
+.header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+}
+
+.header i{
+    display: block;
+    color: #fb8b9b;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #20424e;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.background{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../Instruction/img/background.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+.header input{
+    width: 100%;
+    padding: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    background-color: #fb8b9b;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: #213e4e;
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Open-sans;
+}
+
+.footer p{
+    font-family: Open-sans;            
+}
+
+
+.footer img{
+    width: 70px;
+    margin-top: 2rem;
+}
+
+.footer nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}

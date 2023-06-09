@@ -1,0 +1,319 @@
+html{
+    scroll-behavior: smooth;
+}
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin-inline: auto;
+}
+
+.header{
+    text-align: center;
+
+}
+
+.header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.header nav ul li{
+    color: white;
+    
+}
+
+.header nav{
+    background-color: #40CCEA;
+    
+}
+
+.header nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 0.3rem;
+}
+
+/* nav ul li:hover{
+    
+} */
+
+.header nav ul li a:hover{
+    display: inline-block;
+    background-color: #fff;
+    height: 100%;
+    border: solid 1px #40CCEA;
+    color: #40CCEA;
+}
+
+h1,
+h2,
+h3{
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+h1{
+    color: #40CCEA;
+    font-size: 3rem;
+    word-spacing: 10px;
+    border-bottom: dotted 1px #40CCEA;
+    width: 90%;
+    margin-inline: auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+[class*=section] p {
+    text-align: justify;
+}
+
+.article1 img {
+    float: left;
+    margin-inline: 1rem;
+}
+
+.article2 img{
+    float: right;
+    margin-inline: 1rem;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid #111;
+}
+
+.section1{
+    overflow: hidden;
+}
+
+
+.readmore{
+    background-color: #40CCEA;
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+    margin-bottom: 25px;
+    border-radius: 0.4rem;
+}
+
+.readmore:hover{
+    background-color: #1daac9;
+}
+
+.article2 > p span:nth-child(2){
+    color: #F00;
+}
+.article2 > p span:nth-child(3){
+    color: #CD8C56;
+}
+
+
+.p-readmore1{
+    text-align: right;
+}
+
+.section2{
+    background-image: url("../../instructions/ressources/fond.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    padding: 3rem;
+
+}
+
+.section2 .container .article3 {
+    width: 450px;
+    background-color: #fff;
+    padding: 2%;
+    /* margin-inline: 16rem; */
+
+}
+
+
+address a{
+    text-decoration: none;
+}
+address a:nth-child(n+2){
+    color: #40CCEA;
+}
+
+address a span {
+    margin-inline: 1rem;
+}
+
+.section3 a{
+    text-decoration: none;
+}
+
+.section3 i{
+    font-size: 2rem;
+}
+
+
+
+.facebook{
+    color: #4267B2;
+}
+
+.twitter{
+    color: #1da1f2;
+}
+
+.pinterest{
+    color: #bd081c;
+}
+
+.instagram{
+    color: #8948C1;
+}
+
+/* Les icones */
+
+address{
+    display: flex;
+    flex-direction: column;
+}
+
+address a{
+    display: flex;
+    flex-direction: wrap;
+}
+svg{
+    display: inline-block;
+    width: 1rem;
+    color: #1daac9;
+}
+
+
+/* Footer */
+
+.footer p a{
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+/* La pagination */
+.pagination{
+    text-align: center;
+    margin-block: 2rem;
+}
+
+
+.pagination  a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #40CCEA;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    color: white;
+}
+
+.pagination  a:nth-child(1){
+    background-color: #ddd;
+}
+
+.pagination  a:nth-child(2){
+    background-color: #999;
+}
+
+.pagination a:hover{
+    opacity: 0.4;
+}
+
+.container table,
+tr,
+td,
+th{
+    border: solid 1px #bbb;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+.table{
+    margin-block: 3rem;
+}
+
+.container table{
+    width: 100%;
+    
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex div{
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.flex div input,
+.flex div textarea{
+    font-family: Lato;
+    width: 90%;
+    border: solid 1px #bbb;
+    margin-block: 1rem;
+    /* font-size: 1rem; */
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.flex div input{
+    padding-block: 0.5em;
+    padding-inline: 1em;
+}
+
+.flex div textarea{
+    height: 11rem;
+    padding-inline: 1em;
+    padding-block: 1em;
+}
+
+.background{
+    background-image: url(../../instructions/ressources/map-image.png);
+    background-color: rgba(17, 17, 17, 0.704);
+    /* height: 350px; */
+    background-size: cover;
+    border: solid 1px #bbb;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.submit{
+    background-color: #40CCEA;
+    color: white;
+    text-align: center;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    opacity: 0.8;
+    
+}
+
+.form{
+    margin: 0;
+    padding: 0;
+}

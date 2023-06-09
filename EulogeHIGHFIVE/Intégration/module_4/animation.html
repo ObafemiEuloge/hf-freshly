@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations CSS</title>
+    <style>
+        div.test{
+            width: 200px;
+            aspect-ratio: 1;
+            border: solid 1px #111;
+            background-color: maroon;
+            animation-name: changecolor;
+            border-radius: 50%;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+            margin-inline: auto;
+        }
+
+        @keyframes changecolor {
+            0%{
+                background-color: #111;
+                transform: translateX(0px); 
+            }
+            100%{
+                background-color: maroon;
+                transform: translate(600px, 0);
+            }
+        }
+
+        @keyframes changecolor2{
+            0%{
+                background-color: white;
+                transform: translateX(0);
+            }
+          
+            25%{
+                background-color: green;
+                transform: translate(600px, 0);
+            }
+            50%{
+                background-color: yellow;
+                transform: translate(600px, 600px);
+            }
+           
+            75%{
+                background-color: red;
+                transform: translate(0, 600px);
+            }
+            100%{
+                background-color: blue;
+                transform: translate(0, 0);
+            }
+        } 
+
+    </style>
+</head>
+<body>
+    <div class="test"></div>
+</body>
+</html>

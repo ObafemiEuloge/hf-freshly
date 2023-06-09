@@ -1,0 +1,40 @@
+.column{
+    column-count: 3;
+    column-gap: 5rem;
+    column-rule: solid 1px #333;
+    color: #333;
+    text-align: justify;
+}
+
+.cards{
+    display: block;
+    column-count: 2;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+.cards li{
+    background-color: #ddd;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: row; */
+}
+
+.image p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: #fff;
+    color: #aaa;
+}
